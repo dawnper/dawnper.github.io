@@ -1,21 +1,18 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  
-  <meta name="description" content="珍惜所有的不期而遇，看淡所有的不辞而别，你好" />
-  
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  
-  
-  
-  
-  
-  <title>5小时的博客</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="珍惜所有的不期而遇，看淡所有的不辞而别，你好">
+    <title>
+      
+            5小时的博客
+    </title>
+    <!-- 主css -->
+    <link rel="stylesheet" href="/sass/main.css">
+      <!-- seo -->
+      <meta name="description" content="珍惜所有的不期而遇，看淡所有的不辞而别，你好">
 <meta property="og:type" content="website">
 <meta property="og:title" content="5小时的博客">
 <meta property="og:url" content="https://dawnper.github.io/index.html">
@@ -25,250 +22,156 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="5小时的博客">
 <meta name="twitter:description" content="珍惜所有的不期而遇，看淡所有的不辞而别，你好">
-  
-  
-    <link rel="icon" href="/css/images/favicon.ico">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  
-
-  
-  <!-- baidu webmaster push -->
-  <script src='//push.zhanzhang.baidu.com/push.js'></script>
+        <!-- facicon -->
+        
+          <link rel="icon" href="http://7xp1k3.com1.z0.glb.clouddn.com/octocat-de-los-muertos.jpg">
+          
+            <!-- 统计 -->
+            
+              <script>
+                var _hmt = _hmt || [];
+                (function () {
+                  var hm = document.createElement("script");
+                  hm.src = "//hm.baidu.com/hm.js?c21994907883f37ffd80e13627dd4faa";
+                  var s = document.getElementsByTagName("script")[0];
+                  s.parentNode.insertBefore(hm, s);
+                })();
+              </script>
+              
+                
+                    <script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
 </head>
-<body class="home blog custom-background custom-font-enabled single-author">
-  <div id="page" class="hfeed site">
-      <header id="masthead" class="site-header" role="banner">
-    <hgroup>
-      <h1 class="site-title">
-        <a href="/" title="5小时的博客" rel="home">5小时的博客</a>
-      </h1>
-      
-        <h2 class="site-description">
-          <a href="/" id="subtitle">愿时光不负努力，青春不负已 -- Dawn</a>
-        </h2>
-      
-    </hgroup>
-
-    <nav id="site-navigation" class="main-navigation" role="navigation">
-            <button class="menu-toggle">菜单</button>
-            <a class="assistive-text" href="/#content" title="跳至内容">跳至内容</a><!--TODO-->
-            <div class="menu-main-container">
-                <ul id="menu-main" class="nav-menu">
-                
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/">Home</a></li>
-                
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/archives">Archives</a></li>
-                
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/tags">tags</a></li>
-                
-                </ul>
-            </div>
-    </nav>
+	<body>
+		<div class="main">
+			<div id="mobile-bar">
+    <a class="menu-button"></a>
+    <a class="logo" href="/">xss</a>
+</div>
+<header class="nav-header">
+    <a href="/" class="logo-link">xss</a>
+    
+            
+    <ul class="nav nav-list">
+        <li class="nav-list-item"><a href="/">Home</a></li>
+        
+            
+        
+            
+        <li class="nav-list-item"><a href="/about">About</a></li>
+            
+        
+            
+        <li class="nav-list-item"><a href="/tags">Tags</a></li>
+            
+        
+            
+        <li class="nav-list-item"><a href="/archives">Archives</a></li>
+            
+        
+    </ul>
 </header>
-      <div id="main" class="wrapper">
-        <div id="primary" class="site-content"><div id="content" role="main">
-  
-    <article id="post-article-title" class="post-article-title post type-post status-publish format-standard hentry">
-    <!---->
-
-      <header class="entry-header">
-        
-        
-  
-    <h1 class="entry-title">
-      <a class="article-title" href="/2018/04/17/article-title/">hexo 搭建</a>
-    </h1>
-  
-
-        
-        <div class="comments-link">
+<div class="sidebar">
+    
             
-            <a href="javascript:void(0);" data-url="https://dawnper.github.io/2018/04/17/article-title/" data-id="cjg4r2ugm0000zsl1h2xgthth" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
-
-    <div class="entry-content">
-      
-        <p>一. 简单的搭建</p>
-<p>安装Hexo<br>npm install -g hexo<br>进入工作目录，进行初始化<br>cd 工作目录<br>hexo init<br>安装依赖包<br>npm install<br>运行<br>hexo server<br>查看结果<br><a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a><br>二. github发布</p>
-<p>创建github账户，假设账户为 xxxx<br>创建仓库，仓库的名称必须要注意：xxxx.github.io，其中xxxx为账户名<br>设置SSH keys：需要在git bash下输入如下命令</p>
-<p>#查找是否存在SSH keys<br>ls -al ~/.ssh</p>
-<p>#如果是windows下，文件的地址应该在c:\用户.ssh下</p>
-<p>#生成Key命令<br>ssh-keygen -t rsa -C “注册gitbhub的邮箱”      </p>
-<p>#输入命令<br> ssh-agent -s<br>ssh-add ~/.ssh/id_rsa</p>
-<p>#如果这里出现了错误：Could not open a connection to your authentication agent.请执行下面的命令<br>eval <code>ssh-agent -s</code><br>ssh-add<br>注意：在github中设置SSH key，粘贴的内容为id_rsa.pub文件中的内容<br>最后使用如下命令完成测试工作</p>
-<p>ssh -T <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a><br>进行部署：<br>修改_config.yml文件： 可以戳一下这里<br>deploy:<br>  type: git<br>  repository: 这里设置github资源库的ssh地址<br>  branch: master<br>注意：这里的设置冒号后面必须有空格<br>执行如下命令：</p>
-<p>hexo generate<br>hexo deploy<br>博客地址<br><a href="http://xxxx.github.io" target="_blank" rel="noopener">http://xxxx.github.io</a> xxxx为账号名<br>三. Hexo的操作命令</p>
-<p>简化操作方法：</p>
-<p>hexo n == hexo new            增加新文章<br>hexo g == hexo generate    生成静态文件<br>hexo s == hexo server         启动服务<br>hexo d == hexo deploy        部署<br>安装主题：这里使用一种主题next</p>
-<p>；将主题安装在themes/next目录下<br>$ git clone <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">https://github.com/iissnan/hexo-theme-next</a> themes/next<br>$ git clone <a href="https://github.com/MOxFIVE/hexo-theme-yelee.git" target="_blank" rel="noopener">https://github.com/MOxFIVE/hexo-theme-yelee.git</a> themes/yelee<br>配置主题：<br>修改 _config.yml 文件中 theme: next</p>
-<p>Hexo命令：</p>
-<p>hexo list <type>        列出网站资料<br>hexo version               显示Hexo版本号<br>hexo clean                  清除缓存文件db.json和生成的静态文件public<br>Hexo参数：</type></p>
-<p>hexo –debug   调试模式，调试信息输出到debug.log中<br>hexo –save   安全模式， 不载入插件和脚本<br>hexo –silent   简洁模式，隐藏终端信息<br>hexo –config custom.yml   自定义使用的配置文件<br>hexo –draft 显示草稿箱中的文章<br>四. Hexo写作</p>
-<p>执行命令创建一篇新文章<br>hexo new [layout] <title><br>布局（Layout）有三种默认布局：post, page, draft，可以自定义布局，自定义布局和post存储位置相同<br>post source/_posts<br>page source<br>draft source/_drafts<br>文件名称<br>默认以主题为文章名称，可以在配置文件中设置new_post_name 参数，改变默认的文件名称。<br>:title 标题，类似的内容还有 :year :month : i_month(月份无前导0) :day :i_day</title></p>
-<p>关于草稿的问题<br>可以生成一个草稿： hexo new draft “文章名”<br>草稿发布： hexo publish “文章名”<br>草稿默认不会显示在页面上，可以加上–draft参数来进行显示；也可以通过 render_drafts 参数设置为true来预览草稿</p>
-<p>关于模板<br>新文章会根据scaffolds目录中的对应文件来建立文件<br>模板文件为*.md 文件最上方，—分隔区域以上的部分，用于指定文件的变量，使用<br>layout, title, date, updated, comments(开启文章评论的功能), tags, categories, permalink</p>
-<p>分类和标签<br>有的文章支持分类和标签，可以在模板中设置。</p>
-<p>作者：hutou<br>链接：<a href="https://www.jianshu.com/p/124b3bf367f4" target="_blank" rel="noopener">https://www.jianshu.com/p/124b3bf367f4</a><br>來源：简书<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
-
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/2018/04/17/article-title/">
-    <time datetime="2018-04-17T08:24:28.000Z" class="entry-date">
-        2018-04-17
-    </time>
-</a>
-    
-    
-  <span class="article-delim">&#8226;</span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/可有可无的东西-只是一种消耗/">可有可无的东西 只是一种消耗</a></li></ul>
-
-    </footer>
-</article>
-
-
-
-
-
-
-  
-    <article id="post-hello-world" class="post-hello-world post type-post status-publish format-standard hentry">
-    <!---->
-
-      <header class="entry-header">
+    <ul class="main-menu">
+        <li class="main-menu-item"><a href="/">Home</a></li>
         
-        
-  
-    <h1 class="entry-title">
-      <a class="article-title" href="/2018/04/17/hello-world/">hexo初步</a>
-    </h1>
-  
-
-        
-        <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="https://dawnper.github.io/2018/04/17/hello-world/" data-id="cjg4r2uh30002zsl1mk2dxl19" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
+        
+            
+        <li class="main-menu-item"><a href="/about">About</a></li>
+            
+        
+            
+        <li class="main-menu-item"><a href="/tags">Tags</a></li>
+            
+        
+            
+        <li class="main-menu-item"><a href="/archives">Archives</a></li>
+            
+        
+    </ul>
+</div>
 
-    <div class="entry-content">
-      
-        <p>#Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<h1 class="blog-title">The xss Blog</h1>
 
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/2018/04/17/hello-world/">
-    <time datetime="2018-04-17T08:01:13.758Z" class="entry-date">
-        2018-04-17
-    </time>
-</a>
+			<div class="blog-main">
     
+      <article class="article-main">
+              <header class="article-header">
+                  <h1 itemprop="name">
+                      <a href="/2018/04/17/article-title/" class="article-title">hexo 搭建</a>
+                  </h1>
+              </header>
+              
+              <div class="article-meta">
+                  <div class="article-dateTime">
+                      <a href="/2018/04/17/article-title/" class="article-date">
+                          <time datetime="Apr 17th 2018" itemprop="datePublished">
+                              Apr 17th 2018
+                          </time>
+                      </a>
+                  </div>
+              </div>
+              
+              <div class="article-inner">
+                  <div class="article-entry" itemprop="articleBody">
+                      
+                  </div>
+                  <p class="article-more-link">
+                      <a href="/2018/04/17/article-title/#more">
+                          ...continue reading>
+                      </a>
+                  </p>
+              </div>
+      </article>
     
+      <article class="article-main">
+              <header class="article-header">
+                  <h1 itemprop="name">
+                      <a href="/2018/04/17/hello-world/" class="article-title">hexo初步</a>
+                  </h1>
+              </header>
+              
+              <div class="article-meta">
+                  <div class="article-dateTime">
+                      <a href="/2018/04/17/hello-world/" class="article-date">
+                          <time datetime="Apr 17th 2018" itemprop="datePublished">
+                              Apr 17th 2018
+                          </time>
+                      </a>
+                  </div>
+              </div>
+              
+              <div class="article-inner">
+                  <div class="article-entry" itemprop="articleBody">
+                      
+                  </div>
+                  <p class="article-more-link">
+                      <a href="/2018/04/17/hello-world/#more">
+                          ...continue reading>
+                      </a>
+                  </p>
+              </div>
+      </article>
+    
+    <nav class="older-posts-link">
+    <span class="page-number current">1</span>
+</nav>
+
+</div>
+
+
+		</div>
+		<div id="heart"></div>
+
+    <footer class="blog-footer" id="blog-footer">
+        <div id="footer-info" class="inner">
+            Made with ♥ by <a href="https://github.com/yzzting/hexo-theme-MyFairLady" target="_blank">MyFairLady</a>
+        </div>
     </footer>
-</article>
-
-
-
-
-
-
-  
-  
-
-</div></div>
-        <div id="secondary" class="widget-area" role="complementary">
-  
-    <aside id="search" class="widget widget_search"><form role="search" method="get" accept-charset="utf-8" id="searchform" class="searchform" action="//google.com/search">
-    <div>
-        <input type="text" value="" name="s" id="s" />
-        <input type="submit" id="searchsubmit" value="搜索" />
-    </div>
-</form></aside>
-  
-    
-  
-    
-  
-    
-  <aside class="widget">
-    <h3 class="widget-title">Recents</h3>
-    <div class="widget-content">
-      <ul>
-        
-          <li>
-            <a href="/2018/04/17/article-title/">hexo 搭建</a>
-          </li>
-        
-          <li>
-            <a href="/2018/04/17/hello-world/">hexo初步</a>
-          </li>
-        
-      </ul>
-    </div>
-  </aside>
-
-  
-    
-  <aside class="widget">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget-content">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/可有可无的东西-只是一种消耗/">可有可无的东西 只是一种消耗</a><span class="tag-list-count">1</span></li></ul>
-    </div>
-  </aside>
-
-  
-    
-  <aside class="widget">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget-content tagcloud">
-      <a href="/tags/可有可无的东西-只是一种消耗/" style="font-size: 10px;">可有可无的东西 只是一种消耗</a>
-    </div>
-  </aside>
-
-  
-</div>
-      </div>
-      <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<div class="powered-by">
-<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
-  本站访客数:<span id="busuanzi_value_site_uv"></span>
-</span>
-</div>
-<footer id="colophon" role="contentinfo">
-    <p>&copy; 2018 Dawn
-    All rights reserved.</p>
-    <p>Powered by <a href="https://dawnper.github.io/" target="_blank">dawn</a></p>
-</footer>
-
-    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-
-<script src="/js/jquery-2.0.3.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
-<script src="/js/navigation.js"></script>
-
-<div id="bg"></div>
-
-  </div>
-</body>
-</html>
-<script type = "text/javascript" src="/js/love.js"></script>   
+    <script src="/js/sidebar.js"></script>
+    <script src="/js/toTop.js"></script>
+    <script src="/js/bookmark.js"></script>
+	</body>
+	</html>
