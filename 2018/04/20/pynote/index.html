@@ -7,24 +7,24 @@
   
     <title>
       
-        pynote |
+        甲鱼笔记 |
           
             5小时的博客
     </title>
     <!-- 主css -->
     <link rel="stylesheet" href="/sass/main.css">
       <!-- seo -->
-      <meta name="description" content="珍惜所有的不期而遇，看淡所有的不辞而别，你好">
+      <meta name="description" content="15 字符串-格式化format有两种参数：位置参数，关键字参数 1.位置参数12&amp;gt;&amp;gt;&amp;gt; &quot;&amp;#123;0&amp;#125; love &amp;#123;1&amp;#125;.&amp;#123;2&amp;#125;&quot;.format(&quot;I&quot;,&quot;FishC&quot;,&quot;com&quot;)&apos;I love FishC.com&apos; 2.关键字参数12&amp;gt;&amp;gt;&amp;gt; &amp;quot;&amp;#123;a&amp;#125; love &amp;#123;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="pynote">
+<meta property="og:title" content="甲鱼笔记">
 <meta property="og:url" content="https://dawnper.github.io/2018/04/20/pynote/index.html">
 <meta property="og:site_name" content="5小时的博客">
-<meta property="og:description" content="珍惜所有的不期而遇，看淡所有的不辞而别，你好">
+<meta property="og:description" content="15 字符串-格式化format有两种参数：位置参数，关键字参数 1.位置参数12&amp;gt;&amp;gt;&amp;gt; &quot;&amp;#123;0&amp;#125; love &amp;#123;1&amp;#125;.&amp;#123;2&amp;#125;&quot;.format(&quot;I&quot;,&quot;FishC&quot;,&quot;com&quot;)&apos;I love FishC.com&apos; 2.关键字参数12&amp;gt;&amp;gt;&amp;gt; &amp;quot;&amp;#123;a&amp;#125; love &amp;#123;">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-20T06:45:12.882Z">
+<meta property="og:updated_time" content="2018-04-20T10:21:19.800Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="pynote">
-<meta name="twitter:description" content="珍惜所有的不期而遇，看淡所有的不辞而别，你好">
+<meta name="twitter:title" content="甲鱼笔记">
+<meta name="twitter:description" content="15 字符串-格式化format有两种参数：位置参数，关键字参数 1.位置参数12&amp;gt;&amp;gt;&amp;gt; &quot;&amp;#123;0&amp;#125; love &amp;#123;1&amp;#125;.&amp;#123;2&amp;#125;&quot;.format(&quot;I&quot;,&quot;FishC&quot;,&quot;com&quot;)&apos;I love FishC.com&apos; 2.关键字参数12&amp;gt;&amp;gt;&amp;gt; &amp;quot;&amp;#123;a&amp;#125; love &amp;#123;">
         <!-- facicon -->
         
           <link rel="icon" href="http://7xp1k3.com1.z0.glb.clouddn.com/octocat-de-los-muertos.jpg">
@@ -95,12 +95,12 @@
         <div class="articleCon">
             <header class="article-header">
                 <h1 itemprop="name">
-                    <a href="/2018/04/20/pynote/" class="article-title">pynote</a>
+                    <a href="/2018/04/20/pynote/" class="article-title">甲鱼笔记</a>
                 </h1>
             </header>
             
 <div class="bookmark" id="bookmark">
-    
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#15-字符串-格式化"><span class="toc-text">15 字符串-格式化</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-位置参数"><span class="toc-text">1.位置参数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-关键字参数"><span class="toc-text">2.关键字参数</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#def-factorial-n"><span class="toc-text">def factorial(n):</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#result-n"><span class="toc-text">result = n</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#for-i-in-range-1-n"><span class="toc-text">for i in range(1,n):</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#result-i"><span class="toc-text">result *= i</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#return-result"><span class="toc-text">return result</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#number-int-input-‘请输入一个正整数-’"><span class="toc-text">number = int(input(‘请输入一个正整数:’))</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#result-factorial-number"><span class="toc-text">result = factorial(number)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#factorial-5"><span class="toc-text">#factorial(5)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#print-“-d-的阶乘是-d”-number-result"><span class="toc-text">print(“%d 的阶乘是: %d” % (number,result))</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#def-fab-n"><span class="toc-text">def fab(n):</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#n1-1"><span class="toc-text">n1 = 1</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#n2-1"><span class="toc-text">n2 = 1</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#n3-1"><span class="toc-text">n3 = 1</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#if-n-lt-1"><span class="toc-text">if n &lt; 1:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#print-“输入有误-”"><span class="toc-text">print(“输入有误!”)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#return-1"><span class="toc-text">return -1</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#while-n-2-gt-0"><span class="toc-text">while (n-2) &gt; 0:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#n3-n2-n1"><span class="toc-text">n3 = n2 + n1</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#n1-n2"><span class="toc-text">n1 = n2</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#n2-n3"><span class="toc-text">n2 = n3</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#n-1"><span class="toc-text">n -= 1</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#return-n3"><span class="toc-text">return n3</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#result-fab-20"><span class="toc-text">result = fab(20)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#if-result-1"><span class="toc-text">if result != -1:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#print-‘总共有-d对小兔崽子诞生-’-result"><span class="toc-text">print(‘总共有%d对小兔崽子诞生!’ % result)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#任务：将文件（record-txt中的数据进行分割）"><span class="toc-text">任务：将文件（record.txt中的数据进行分割）</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#将小时对话单独保存为boy-txt的文件（去掉”小时-”"><span class="toc-text">将小时对话单独保存为boy_*.txt的文件（去掉”小时:”)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#将二岁对话单独保存为girl-txt的文件-去掉”二岁-”"><span class="toc-text">将二岁对话单独保存为girl_*.txt的文件(去掉”二岁:”)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#文件对话有三段，分别保存为boy-1-txt，girl-1-txt-boy-2-txt，girl-2-txt-boy-3-txt-girl-3-txt共6个文件（提示不同的对话间已经使用”-”分割）"><span class="toc-text">文件对话有三段，分别保存为boy_1.txt，girl_1.txt,boy_2.txt，girl_2.txt,boy_3.txt,girl_3.txt共6个文件（提示不同的对话间已经使用”====================”分割）</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#f-open-‘D-record1-txt’-打开目标文件"><span class="toc-text">f = open(‘D:\record1.txt’) #打开目标文件</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#boy"><span class="toc-text">boy = []</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#girl-对两个列表进行初始化"><span class="toc-text">girl = []   #对两个列表进行初始化</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#count-1-初始化的计算器"><span class="toc-text">count = 1   #初始化的计算器</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#for-each-line-in-f-每次获取一行，并对获取到的行判断前6个是不是"><span class="toc-text">for each_line in f: #每次获取一行，并对获取到的行判断前6个是不是=</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#if-each-line-6-‘-’"><span class="toc-text">if each_line[:6] != ‘======’:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#role-line-spoken-each-line-split-‘-’-1-我们这里进行字符串分割操作"><span class="toc-text">(role, line_spoken) = each_line.split(‘:’,1) #我们这里进行字符串分割操作</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#if-role-‘小时’-文件分别保存操作，存放的话需要初始化两个列表"><span class="toc-text">if role == ‘小时’:    #文件分别保存操作，存放的话需要初始化两个列表</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#boy-append-line-spoken-line-spoken要放在boy列表里面"><span class="toc-text">boy.append(line_spoken) #line_spoken要放在boy列表里面</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#if-role-‘二岁’"><span class="toc-text">if role == ‘二岁’:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#girl-append-line-spoken"><span class="toc-text">girl.append(line_spoken)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#else"><span class="toc-text">else:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#file-name-boy-‘boy-’-str-count-‘-txt’-需要按照-1-txt来命名，所以需要初始化一个计算器"><span class="toc-text">file_name_boy = ‘boy_’ + str(count) + ‘.txt’    #需要按照_1.txt来命名，所以需要初始化一个计算器</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#file-name-girl-‘girl-’-str-count-‘-txt’"><span class="toc-text">file_name_girl = ‘girl_’ + str(count) + ‘.txt’</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#boy-file-open-file-name-boy-’w’"><span class="toc-text">boy_file = open(file_name_boy,’w’)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#girl-file-open-file-name-girl-’w’"><span class="toc-text">girl_file = open(file_name_girl,’w’)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#boy-file-writelines-boy-将boy写入-writelines-是将序列进行写入"><span class="toc-text">boy_file.writelines(boy)   #将boy写入 writelines()是将序列进行写入</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#girl-file-writelines-girl"><span class="toc-text">girl_file.writelines(girl)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#boy-file-close"><span class="toc-text">boy_file.close()</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#girl-file-close"><span class="toc-text">girl_file.close()</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#boy-1"><span class="toc-text">boy = []</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#girl"><span class="toc-text">girl = []</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#count-1"><span class="toc-text">count += 1</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#file-name-boy-‘boy-’-str-count-‘-txt’"><span class="toc-text">file_name_boy = ‘boy_’ + str(count) + ‘.txt’</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#file-name-girl-‘girl-’-str-count-‘-txt’-1"><span class="toc-text">file_name_girl = ‘girl_’ + str(count) + ‘.txt’</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#boy-file-open-file-name-boy-’w’-1"><span class="toc-text">boy_file = open(file_name_boy,’w’)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#girl-file-open-file-name-girl-’w’-1"><span class="toc-text">girl_file = open(file_name_girl,’w’)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#boy-file-writelines-boy"><span class="toc-text">boy_file.writelines(boy)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#girl-file-writelines-girl-1"><span class="toc-text">girl_file.writelines(girl)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#boy-file-close-1"><span class="toc-text">boy_file.close()</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#girl-file-close-1"><span class="toc-text">girl_file.close()</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#f-close"><span class="toc-text">f.close()</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#关于新手调用有道翻译，不能成功问题。在下重新抓了一下接口"><span class="toc-text">关于新手调用有道翻译，不能成功问题。在下重新抓了一下接口</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#try"><span class="toc-text">try:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#with-open-‘data-txt’-’w’-as-f"><span class="toc-text">with open(‘data.txt’,’w’) as f:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#for-each-line-in-f"><span class="toc-text">for each_line in f:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#print-each-line"><span class="toc-text">print(each_line)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#except-OSError-as-reason"><span class="toc-text">except OSError as reason:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#print-‘出错啦-’-str-reason"><span class="toc-text">print(‘出错啦:’ + str(reason))</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#import-easygui-as-g"><span class="toc-text">import easygui as g</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#import-sys"><span class="toc-text">import sys</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#while-1"><span class="toc-text">while 1:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#g-msgbox-‘嗨，欢迎进入第一个界面-小游戏’"><span class="toc-text">g.msgbox(‘嗨，欢迎进入第一个界面^_^小游戏’)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#msg-‘请问你想玩什么游戏呢？’"><span class="toc-text">msg = ‘请问你想玩什么游戏呢？’</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#title-‘游戏互动’"><span class="toc-text">title = ‘游戏互动’</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#choices-‘消消乐’-’乐高’-’汉诺塔’-’推理’"><span class="toc-text">choices = [‘消消乐’,’乐高’,’汉诺塔’,’推理’]</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#choice-g-choicebox-msg-title-choices"><span class="toc-text">choice = g.choicebox(msg,title,choices)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#g-msgbox-“你的选择是-“-str-choice-”结果”"><span class="toc-text">g.msgbox(“你的选择是: “ + str(choice),”结果”)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#msg-“你希望重新开始游戏吗-”"><span class="toc-text">msg = “你希望重新开始游戏吗?”</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#title-“请选择”"><span class="toc-text">title = “请选择”</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#if-g-ccbox-msg-title"><span class="toc-text">if g.ccbox(msg,title):</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#pass"><span class="toc-text">pass</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#else-1"><span class="toc-text">else:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#sys-exit-0"><span class="toc-text">sys.exit(0)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#import-easygui-as-g-1"><span class="toc-text">import easygui as g</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#import-sys-1"><span class="toc-text">import sys</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#while-1-1"><span class="toc-text">while 1:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#g-msgbox-‘SE手机壳’"><span class="toc-text">g.msgbox(‘SE手机壳’)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#msg-‘校车版’"><span class="toc-text">msg = ‘校车版’</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#title-‘小时商城’"><span class="toc-text">title = ‘小时商城’</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#choices-‘粉色’-’绿色’-’蓝色’-’黄色’-’白色’"><span class="toc-text">choices = [‘粉色’,’绿色’,’蓝色’,’黄色’,’白色’]</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#choice-g-choicebox-msg-title-choices-1"><span class="toc-text">choice = g.choicebox(msg,title,choices)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#g-msgbox-“你的选择是-”-str-choice-”购物车”"><span class="toc-text">#g.msgbox(“你的选择是:” + str(choice),”购物车”)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#g-msgbox-str-choice-“-放入你的购物车”"><span class="toc-text">g.msgbox(str(choice)+ “ 放入你的购物车”)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#msg-“确定放弃重新选择-”"><span class="toc-text">msg = “确定放弃重新选择?”</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#title-‘选择’"><span class="toc-text">title = ‘选择’</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#if-g-ccbox-msg-title-1"><span class="toc-text">if g.ccbox(msg,title):</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#pass-1"><span class="toc-text">pass</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#else-2"><span class="toc-text">else:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#sys-exit-0-1"><span class="toc-text">sys.exit(0)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#coding-utf-8"><span class="toc-text">coding:utf-8</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#author-‘Mark-sinoberg’"><span class="toc-text">author = ‘Mark sinoberg’</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#date-‘2016-5-25’"><span class="toc-text">date = ‘2016/5/25’</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Desc-一个最简单的类似于Java的MessageBox的小窗口"><span class="toc-text">Desc =  一个最简单的类似于Java的MessageBox的小窗口</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#当我们直接调用t1的时候会报错，因为当直接调用t1的时候python就会直接找到str和魔法方法，有调用self-prompt-但是没有定义。必须要通过start，stop这玩意才会被赋值定义。要防止这种错误，修改的话也很简单，我们知道在类中我们用的最多的魔法方法是init-所有属于实例对象的变量在init里面先定义就不会出现问题了，那我们来修改一下。"><span class="toc-text">当我们直接调用t1的时候会报错，因为当直接调用t1的时候python就会直接找到str和魔法方法，有调用self.prompt,但是没有定义。必须要通过start，stop这玩意才会被赋值定义。要防止这种错误，修改的话也很简单，我们知道在类中我们用的最多的魔法方法是init,所有属于实例对象的变量在init里面先定义就不会出现问题了，那我们来修改一下。</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#开始计时"><span class="toc-text">开始计时</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#停止计时"><span class="toc-text">停止计时</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#报错原因，抛出类型错误，我们知道一个整型不能被调用，整型不可能被当做对象或函数来调用，但是为什么我们会报这样一个错误呢，我们代码里面没有调用整型都是调用的方法。我们之前添加了一个初始化self-start-0，变量也叫start，我们之前学过"><span class="toc-text">报错原因，抛出类型错误，我们知道一个整型不能被调用，整型不可能被当做对象或函数来调用，但是为什么我们会报这样一个错误呢，我们代码里面没有调用整型都是调用的方法。我们之前添加了一个初始化self.start = 0，变量也叫start，我们之前学过</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#def-str-self"><span class="toc-text">def str(self):</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#return-self-prompt"><span class="toc-text">return self.prompt</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#内部方法，计算运行时间"><span class="toc-text">内部方法，计算运行时间</span></a></li></ol></li></ol>
 </div>
 
             
@@ -116,7 +116,1065 @@
             </div>
             <div class="article-inner">
                 <div class="article-entry" itemprop="articleBody">
-                    
+                    <h1 id="15-字符串-格式化"><a href="#15-字符串-格式化" class="headerlink" title="15 字符串-格式化"></a>15 字符串-格式化</h1><p>format有两种参数：位置参数，关键字参数</p>
+<h4 id="1-位置参数"><a href="#1-位置参数" class="headerlink" title="1.位置参数"></a>1.位置参数</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">"&#123;0&#125; love &#123;1&#125;.&#123;2&#125;"</span>.format(<span class="string">"I"</span>,<span class="string">"FishC"</span>,<span class="string">"com"</span>)</span><br><span class="line"><span class="string">'I love FishC.com'</span></span><br></pre></td></tr></table></figure>
+<h4 id="2-关键字参数"><a href="#2-关键字参数" class="headerlink" title="2.关键字参数"></a>2.关键字参数</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; &quot;&#123;a&#125; love &#123;b&#125;.&#123;c&#125;&quot;.format(a=&quot;I&quot;, b=&quot;FishC&quot;,c=&quot;com&quot;)</span><br><span class="line">&apos;I love FishC.com&apos;</span><br></pre></td></tr></table></figure>
+<p>注意：位置参数和关键字参数一起使用（位置参数必须在关键字参数之前)<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">"&#123;0&#125; love &#123;b&#125;.&#123;c&#125;"</span>.format(<span class="string">"I"</span>, b=<span class="string">"FishC"</span>,c=<span class="string">"com"</span>)</span><br><span class="line"><span class="string">'I love FishC.com'</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">"&#123;a&#125; love &#123;b&#125;.&#123;0&#125;"</span>.format(a=<span class="string">"I"</span>, b=<span class="string">"FishC"</span>,<span class="string">"com"</span>)</span><br><span class="line">  File <span class="string">"&lt;input&gt;"</span>, line <span class="number">1</span></span><br><span class="line">SyntaxError: non-keyword arg after keyword arg</span><br><span class="line">对比一下</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">'&#123;0:.1f&#125;&#123;1&#125;'</span>.format(<span class="number">27.658</span>,<span class="string">'GB'</span>)</span><br><span class="line"><span class="string">'27.7GB'</span></span><br></pre></td></tr></table></figure></p>
+<p>: 表示格式化字符的开始，后面跟格式化符号，1是保留一位小数点，f表示定点数<br>定点数和浮点数类似，只是表示方法不同。{1}表示位置参数1，把GB打印。<br>字符串格式化符号含义及转义字符含义<br><a href="http://bbs.fishc.com/forum.php?mod=viewthread&amp;tid=92997&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D403" target="_blank" rel="noopener">http://bbs.fishc.com/forum.php?mod=viewthread&amp;tid=92997&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D403</a><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">'%c'</span> % <span class="number">97</span></span><br><span class="line"><span class="string">'a'</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">'%c %c %c'</span> % (<span class="number">97</span>,<span class="number">98</span>,<span class="number">99</span>)</span><br><span class="line"><span class="string">'a b c'</span></span><br></pre></td></tr></table></figure></p>
+<p>####3.<strong>格式化操作符辅助指令</strong><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">m.n</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">'%.2e'</span> % <span class="number">27.658</span></span><br><span class="line"><span class="string">'2.77e+01'</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">'%#x'</span> % <span class="number">108</span></span><br><span class="line"><span class="string">'0x6c'</span></span><br></pre></td></tr></table></figure></p>
+<p>###<strong>16 序列</strong></p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>c = (1,1,2,3,5,8)<br>c = list(c)<br>c<br>[1, 1, 2, 3, 5, 8]<br>tuple()把一个可迭代对象转化为元组<br>str()把参数对象转化为字符串<br>len()返回字符的长度<br>max()返回序列或者参数集合中的最大值<br>sum(iterable[, start=0])返回序列iterable和可选参数start的总和.int类型和str类型不能相加<br>sorted()和list.sort 用法一样，排序<br>reverse() 函数用于反向列表中元素<br>sorted(numbers)<br>[-98, 0, 1, 13, 34, 54]<br>enumerate()函数用于遍历序列中的元素以及它们的下标<br>list(enumerate(numbers))<br>[(0, -98), (1, 0), (2, 1), (3, 13), (4, 34), (5, 54)]</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#zip函数接受任意多个（包括0个和1个）序列作为参数，返回一个tuple列表.直接看例子比较容易理解<br>a = [1,2,3,4,5,6,7,8]<br>b = [4,5,6,7,8]</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>zip(a,b)</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><zip object="" at="" 0x032cd260=""></zip></p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>list(zip(a,b))<br>[(1, 4), (2, 5), (3, 6), (4, 7), (5, 8)]<br>17 Python的乐高积木<br>def定义一个函数<br>def add(num1, num2):<br>  result = num1 + num2</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>  print(result)</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>add(1, 2)<br>3<br>返回值<br>def add(num1,num2):<br>    return (num1 + num2)</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>print(add(5,6))<br>11</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>18 函数:灵活即强大<br>18.1形参和实参(parameter和argument)</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>def MyFirstFunction(name):<br>    ‘形参是函数定义过程中的name,因为他只是一个形式，并占据一个参数位置’<br>    print(‘传递进来的’ + name + ‘叫做实参，应为Ta是具体的参数值！’)</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<pre><code># MyFirstFunction(&apos;小甲鱼&apos;)
+#传递进来的小甲鱼叫做实参，因为Ta是具体的参数值！
+</code></pre><blockquote>
+<blockquote>
+<blockquote>
+<p>MyFirstFunction(‘小甲鱼’)<br>传递进来的小甲鱼叫做实参，应为Ta是具体的参数值！</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#函数文档打印出来了</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>MyFirstFunction.<strong>doc</strong><br>‘形参是函数定义过程中的name,因为他只是一个形式，并占据一个参数位置’</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>help(MyFirstFunction)<br>Help on function MyFirstFunction:<br>MyFirstFunction(name)<br>    形参是函数定义过程中的name,因为他只是一个形式，并占据一个参数位置</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>18.2 关键字参数（是在函数调用的时候，通过参数名制定需要赋值的参数）</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>def SaySome(name,words):<br>    print(name + ‘-&gt;’ + words)<br>SaySome(‘小甲鱼’,’让编程改变世界!’)<br>小甲鱼-&gt;让编程改变世界!<br>SaySome(‘让编程改变世界!’,’小甲鱼’)<br>让编程改变世界!-&gt;小甲鱼<br>SaySome(words=’让编程改变世界!’,name=’小甲鱼’)<br>小甲鱼-&gt;让编程改变世界!<br>18.3 默认参数<br>def SaySome(name=’小甲鱼’, words=’让参数改变世界!’):<br>    print(name + ‘-&gt;’ + words)</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>SaySome()<br>小甲鱼-&gt;让参数改变世界!<br>SaySome(‘哈哈哈’)<br>哈哈哈-&gt;让参数改变世界!<br>SaySome(‘哈哈哈’, “真特么逗！”)<br>哈哈哈-&gt;真特么逗！<br>18.4 收集参数(可变参数)<br><em>params 形参前面加</em> 传多少个参数都可以<br>def test(<em>params):<br>    print(‘参数的长度是:’, len(params));<br>    print(‘第二个参数是:’, params[1]);<br>test(1, ‘小甲鱼’, 3.14, 5, 6, 7, 8)<br>参数的长度是: 7<br>第二个参数是: 小甲鱼<br>原理：把标志为收集参数的参数用元组打包起来,如果收集参数后面要加定制的参数，调用函数的时候应该使用关键字参数来定制，举个栗子:<br>def test(</em>params, exp):<br>    print(‘参数的长度是:’, len(params), exp);<br>    print(‘第二个参数是:’, params[1]);<br>test(1, ‘小甲鱼’, 3.14, 5, 6, 7, exp=8)<br>参数的长度是: 6 8<br>第二个参数是: 小甲鱼<br>如果参数有收集参数，后面还需要有自己其他的参数，那么请为其他的参数设置为默认参数<br>def test(*params, exp=8):<br>    print(‘参数的长度是:’, len(params), exp);<br>    print(‘第二个参数是:’, params[1]);<br>test(1, ‘小甲鱼’, 3.14, 5, 6, 7, 8)<br>参数的长度是: 7 8<br>第二个参数是: 小甲鱼<br>19 我的地盘听我的<br>函数和过程<br>函数:(function)是有返回值的<br>过程:(procedure)是简单的、特殊并且没有返回值的<br>python 的所有函数都是有返回值的.例如,没有值会返回none<br>def hello():<br>    print(‘Hello FishC!’)<br>temp = hello()<br>Hello FishC!<br>temp<br>print(temp)<br>None</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#python 是可以返回多个值的，列表里面可以包含多个类型的值</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>def back():<br>    return[1,’小甲鱼’,3.14] #可以用列表，列表里面可以包含多个类型的值<br>back()<br>[1, ‘小甲鱼’, 3.14]</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#如果不用列表,那也是没问题的,因为默认是返回元组，由于元组在语法上不需要一定带上小括号，用逗号隔开也可以看成是一个元组</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>def back():<br>    return 1,’小甲鱼’,3.14 #如果不用列表,那也是没问题的,因为默认是返回元组，由于元组在语法上不需要一定带上小括号，用逗号隔开也可以看成是一个元组<br>back()<br>(1, ‘小甲鱼’, 3.14)<br>19.2函数变量的作用域(重点)<br>也就是变量的可见性，一般的编程语言都是有局部变量(local variable)和全局变量(Global variable)之分的<br>def discount(price,rate):<br>    final_price  = price * rate<br>    old_price = 50<br>    print(‘修改后old_price的值是1:’,old_price)<br>    return final_price<br>old_price = float(input(‘请输入原价:’))<br>rate = float(input(‘请输入折扣率:’))<br>new_price = discount(old_price,rate)<br>print(‘修改后old_price的值是2:’,old_price)<br>print(‘打折后价格是:’,new_price)<br>20 内嵌函数和闭包<br>20.1 先复习一下上节<br>count = 5 #全局变量,被局部变量屏蔽<br>def MyFun():<br>    count = 10 #局部变量<br>    print(10)<br>MyFun()<br>10<br>print(count)<br>5</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>def MyFun():<br>    global count #定义全局变量<br>    count = 10 #局部变量<br>    print(10)<br>MyFun()<br>10<br>print(count)<br>10</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#打印的结果变成了10<br>20.2 内嵌函数<br>关于内部嵌套函数的使用，内部函数整个作用域都在外部函数之内</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>def fun1():<br>    print(‘fun1()正在被调用。。。’)<br>        def fun2():<br>            print(‘fun2()正在被调用。。。’)<br>        fun2()<br>fun1()<br>fun1()正在被调用。。。<br>fun2()正在被调用。。。<br>20.3 闭包<br>函数式编程<br>不同的编程语言实现的方式不同<br>如果在一个内部函数里,对在外部作用域引用的变量.<br>def FunX(x):<br>        def FunY(y):<br>            return x * y<br>        return FunY<br>i = FunX(8)<br>i</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>&lt;function FunX.<locals>.FunY at 0x033142B8&gt;</locals></p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>i(5)<br>40<br>FunX(8)(5)<br>40<br>不能在外部函数外面对内部函数进行调用例如<br>FunY(5)<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>NameError: name ‘FunY’ is not defined</module></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#在闭包中外部函数的局部变量对内部函数，在内部函数中只能对内部函数进行访问，但不能对它修改,例如</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>def Fun1():<br>    x = 5<br>    def Fun2():<br>        x *= x<br>        return x<br>    return Fun2()<br>Fun1()<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>  File “<input>“, line 6, in Fun1<br>  File “<input>“, line 4, in Fun2<br>UnboundLocalError: local variable ‘x’ referenced before assignment</module></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>使用列表不是存放在站里面，if 就不会导致问题的存在:</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>def Fun1():<br>        x = [5]</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<pre><code>def Fun2():
+    x[0] *= x[0]
+    return x[0]
+
+return Fun2()
+</code></pre><blockquote>
+<blockquote>
+<blockquote>
+<p>Fun1()<br>    25</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#强调一下不是局部变量 nonlocal</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>def Fun1():<br>    x = 5<br>    def Fun2():<br>        nonlocal x<br>        x *= x<br>        return x<br>    return Fun2()</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>Fun1()<br>25<br>21 函数：lambda表达式<br>def ds(x):<br>        return 2 * x + 1<br>ds(5)<br>11<br>1)用法</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#如果使用lambda,基本的语法是 ：冒号的前面是原函数的参数，冒号的后面是原函数的返回值。</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>lambda x : 2 * x + 1</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>&lt;function <lambda> at 0x033248E8&gt;</lambda></p>
+<p>#可以这么使用</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>g = lambda x : 2 * x + 1<br>g(5)<br>11</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#和酱用s</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>def add(x,y):<br>        return x + y<br>add(3,4)<br>7<br>21.1 lambda函数的作用</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#1.使用lambda使代码更简洁 2.使用lambda不用考虑命名问题 3.使用lambda可以不用跳到开头def定义部分，简化代码可读性</p>
+<p>#python中内置函数BIF</p>
+<p>#1. filter()过滤器-保留关注的信息</p>
+<p>#如果第一个参数为None,则将第二个参数里面True的值筛选出来</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>filter(None,[1,0,False,True])</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><filter object="" at="" 0x02c5fff0=""></filter></p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>list(filter(None,[1,0,False,True]))<br>[1, True]</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#筛选出奇数的过滤器</p>
+<p>#如果是普通的写法</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>def odd(x):<br>    return x % 2<br>temp = range(10)<br>show = filter(odd,temp)<br>list(show)<br>[1, 3, 5, 7, 9]<br>使用lambda和filter<br>list(filter(lambda x : x % 2,range(10)))<br>[1, 3, 5, 7, 9]<br>2.map<br>map()函数接收两个参数，一个是函数，一个是序列，map将传入的函数依次作用到序列的每个元素，并把结果作为新的list返回<br>list(map(lambda x : x * 2,range(10)))<br>[0, 2, 4, 6, 8, 10, 12, 14, 16, 18]<br>22函数:递归是神马<br>1.例子:<br>汉诺塔游戏<br>树结构的定义<br>谢尔宾斯基三角形<br>递归自拍<br>2.递归含义：1）有调用函数自身的行为；2）有一个正确的返回条件<br>python3对递归定义的深度：100层，还可以自行设置<br>设置递归的层数：<br>import sys<br>sys.setrecursionlimit(10000)<br>3.用法<br>1)递归求阶乘</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#普通的写法</p>
+<h1 id="def-factorial-n"><a href="#def-factorial-n" class="headerlink" title="def factorial(n):"></a>def factorial(n):</h1><h1 id="result-n"><a href="#result-n" class="headerlink" title="result = n"></a>result = n</h1><h1 id="for-i-in-range-1-n"><a href="#for-i-in-range-1-n" class="headerlink" title="for i in range(1,n):"></a>for i in range(1,n):</h1><h1 id="result-i"><a href="#result-i" class="headerlink" title="result *= i"></a>result *= i</h1><h1 id="return-result"><a href="#return-result" class="headerlink" title="return result"></a>return result</h1><h1 id="number-int-input-‘请输入一个正整数-’"><a href="#number-int-input-‘请输入一个正整数-’" class="headerlink" title="number = int(input(‘请输入一个正整数:’))"></a>number = int(input(‘请输入一个正整数:’))</h1><h1 id="result-factorial-number"><a href="#result-factorial-number" class="headerlink" title="result = factorial(number)"></a>result = factorial(number)</h1><h1 id="factorial-5"><a href="#factorial-5" class="headerlink" title="#factorial(5)"></a>#factorial(5)</h1><h1 id="print-“-d-的阶乘是-d”-number-result"><a href="#print-“-d-的阶乘是-d”-number-result" class="headerlink" title="print(“%d 的阶乘是: %d” % (number,result))"></a>print(“%d 的阶乘是: %d” % (number,result))</h1><p>def factorial(n):<br>    for i in range(1,n):<br>        n *= i<br>    return n<br>print(factorial(10))</p>
+<p>#递归的写法<br>def factorial(n):<br>    if n == 1:<br>        return 1<br>    else:<br>        return n * factorial( n - 1 )<br>number = int(input(‘请输入一个正整数:’))<br>result = factorial(number)<br>print(“%d 的阶乘是:%d” % (number,result))<br>4.递归的缺点:<br>1）压栈，弹栈，保存，恢复寄存器的操作，非常消耗时间，空间资源<br>2）如果忘记结束条件，造成死循环，消耗内存，使程序崩溃<br>普通程序员用迭代，天才程序员用递归(递归的实现原理是函数自己调用自己)<br>递归的缺陷:每次调用函数非常消耗时间和空间的，消耗内存,以上求阶乘的例子是不需要用递归的，因为如果数值大的话，非常消耗内存。<br>递归优点：代码简洁，精炼<br>23 递归:这帮小兔崽子<br>斐波那契数列的递归实现，假设我们需要求出经历了20个月后，总共有多少对小兔崽子？(迭代VS递归)<br>迭代</p>
+<h1 id="def-fab-n"><a href="#def-fab-n" class="headerlink" title="def fab(n):"></a>def fab(n):</h1><h1 id="n1-1"><a href="#n1-1" class="headerlink" title="n1 = 1"></a>n1 = 1</h1><h1 id="n2-1"><a href="#n2-1" class="headerlink" title="n2 = 1"></a>n2 = 1</h1><h1 id="n3-1"><a href="#n3-1" class="headerlink" title="n3 = 1"></a>n3 = 1</h1><h1 id="if-n-lt-1"><a href="#if-n-lt-1" class="headerlink" title="if n &lt; 1:"></a>if n &lt; 1:</h1><h1 id="print-“输入有误-”"><a href="#print-“输入有误-”" class="headerlink" title="print(“输入有误!”)"></a>print(“输入有误!”)</h1><h1 id="return-1"><a href="#return-1" class="headerlink" title="return -1"></a>return -1</h1><h1 id="while-n-2-gt-0"><a href="#while-n-2-gt-0" class="headerlink" title="while (n-2) &gt; 0:"></a>while (n-2) &gt; 0:</h1><h1 id="n3-n2-n1"><a href="#n3-n2-n1" class="headerlink" title="n3 = n2 + n1"></a>n3 = n2 + n1</h1><h1 id="n1-n2"><a href="#n1-n2" class="headerlink" title="n1 = n2"></a>n1 = n2</h1><h1 id="n2-n3"><a href="#n2-n3" class="headerlink" title="n2 = n3"></a>n2 = n3</h1><h1 id="n-1"><a href="#n-1" class="headerlink" title="n -= 1"></a>n -= 1</h1><h1 id="return-n3"><a href="#return-n3" class="headerlink" title="return n3"></a>return n3</h1><h1 id="result-fab-20"><a href="#result-fab-20" class="headerlink" title="result = fab(20)"></a>result = fab(20)</h1><h1 id="if-result-1"><a href="#if-result-1" class="headerlink" title="if result != -1:"></a>if result != -1:</h1><h1 id="print-‘总共有-d对小兔崽子诞生-’-result"><a href="#print-‘总共有-d对小兔崽子诞生-’-result" class="headerlink" title="print(‘总共有%d对小兔崽子诞生!’ % result)"></a>print(‘总共有%d对小兔崽子诞生!’ % result)</h1><p>递归:<br>def fab(n):<br>    if n &lt; 1:<br>        print (‘输入有误!’)<br>        return -1<br>    if n == 1 or n == 2:<br>        return 1<br>    else:<br>        return fab(n-1) + fab(n-2)<br>result = fab(20)<br>if result != -1:<br>    print(‘总共有%d对小兔崽子诞生!’ % result)<br>递归也称之为分治思想<br>24递归:汉诺塔<br>def hanoi(n,x,y,z):<br>    if n == 1:<br>        print(x,’–&gt;’,z)<br>    else:<br>        hanoi(n-1,x,z,y)#将前n-1个盘子从x移动到y上<br>        print(x,’–&gt;’,z)#将最底下的最后一个盘子从x移动到z上<br>        hanoi(n-1,y,x,z)#将y上的n-1个盘子移动到z上<br>n = int(input(‘请输入汉诺塔的层数:’))<br>hanoi(n,’X’,’Y’,’Z’)<br>25当索引不好用时<br>比序列更加实用的映射类型,字典dict, dict{}，跟序列一样是他可以dict(),跟序列不一样的是，在序列中试图为一个不存在的赋值的话会报错，在字典中会添加对应的键和值</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>brand = [‘李宁’,’nike’,’ad’,’yuc’]<br>slogan = [‘一切都有可能’,’just do it’,’Impossible i nothing’,’让编程改变世界’]<br>print(‘鱼C工作室的口号是:’,slogan[brand.index(‘yuc’)])<br>鱼C工作室的口号是: 让编程改变世界<br>dict1 = {‘李宁’:’一切都有可能’,’耐克’:’Just do it’,’阿迪达斯’:’Impossible is nothing’,’鱼c工作室’:’让编程改变世界’}<br>print(‘鱼c工作室的口号是:’,dict1[‘鱼c工作室’])<br>鱼c工作室的口号是: 让编程改变世界<br>列表<br>dict2 = {1:’one’,2:’two’,3:’three’}<br>dict2<br>{1: ‘one’, 2: ‘two’, 3: ‘three’}<br>元组<br>dict3 = dict(((‘F’,70),(‘i’,105),(‘s’,115),(‘h’,104),(‘c’,67)))<br>dict3<br>{‘c’: 67, ‘i’: 105, ‘h’: 104, ‘s’: 115, ‘F’: 70}<br>关键字参数<br>dict4 = dict(小甲鱼=’让编程改变世界’,自己=’让知识改变命运’)<br>dict4<br>{‘小甲鱼’: ‘让编程改变世界’, ‘自己’: ‘让知识改变命运’}<br>26当索引不好用时2<br>dict被称为工厂函数.str(),int(),list(),tuple()<br>内建方法<br>Python 字典(Dictionary) fromkeys() 函数用于创建一个新字典，以序列seq中元素做字典的键，value为字典所有键对应的初始值。<br>dict1={}<br>dict.fromkeys((1,2,3))<br>{1: None, 2: None, 3: None}<br>dict1.fromkeys((1,2,3),’Number’)<br>{1: ‘Number’, 2: ‘Number’, 3: ‘Number’}<br>dict1.fromkeys((1,2,3),(‘one’,two,’three’))<br>dict1.fromkeys((1,2,3),(‘one’,’two’,’three’))<br>{1: (‘one’, ‘two’, ‘three’), 2: (‘one’, ‘two’, ‘three’), 3: (‘one’, ‘two’, ‘three’)}<br>如果试图修改会重新创建新的字典出来如：<br>dict1.fromkeys((1,3),’数字’)<br>{1: ‘数字’, 3: ‘数字’}<br>访问字典的几个方法:keys(),values(),items()<br>keys返回字典的键的引用<br>dict1 = dict1.fromkeys(range(32), ‘赞’)<br>dict1<br>{0: ‘赞’, 1: ‘赞’, 2: ‘赞’, 3: ‘赞’, 4: ‘赞’, 5: ‘赞’, 6: ‘赞’, 7: ‘赞’, 8: ‘赞’, 9: ‘赞’, 10: ‘赞’, 11: ‘赞’, 12: ‘赞’, 13: ‘赞’,<br> 14: ‘赞’, 15: ‘赞’, 16: ‘赞’, 17: ‘赞’, 18: ‘赞’, 19: ‘赞’, 20: ‘赞’, 21: ‘赞’, 22: ‘赞’, 23: ‘赞’, 24: ‘赞’, 25: ‘赞’, 26: ‘赞’,<br> 27: ‘赞’, 28: ‘赞’, 29: ‘赞’, 30: ‘赞’, 31: ‘赞’}<br>keys返回字典的键的引用<br>for eachKey in dict1.keys():<br>    print(eachKey)</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>0<br>1<br>2<br>3<br>4<br>5<br>……</p>
+<p>Values()返回所有的值</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>for eachValue in dict1.values():<br>    print(eachValue)</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>赞<br>赞<br>赞<br>…<br>items()返回所有的项，会以元组的形式打印出来</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>for eachItem in dict1.items():<br>    print(eachItem)</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>(0, ‘赞’)<br>(1, ‘赞’)<br>(2, ‘赞’)<br>(3, ‘赞’)<br>(4, ‘赞’)<br>(5, ‘赞’)<br>提供的项，如果不存在的话可能报错,如32</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>print(dict1[31])<br>赞<br>print(dict1[32])<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>KeyError: 32<br>Python 字典(Dictionary) get() 函数返回指定键的值，如果值不在字典中返回默认值。<br>dict1.get(32)<br>print(dict1.get(32))<br>None<br>dict1.get(32,’muyou’) #木有值返回默认值<br>‘muyou’<br>dict1.get(31,’muyou’) #有值，把值打印<br>‘赞’<br>成员资格运算符 in 和 not in，如下<br>31 in dict1<br>True<br>32 in dict1<br>False<br>小结:在字典中检查键的成员资格比序列更加高效，当数据规模相当大的时候两者的差距会很明显，在这里查找的是键而不是值，在序列里面查找的是元素的值，而不是元素的索引键<br>clear()方法 清空一个字典<br>dict1.clear()<br>dict1<br>{}<br>dir(dict)<br>[‘<strong>class</strong>‘, ‘<strong>contains</strong>‘, ‘<strong>delattr</strong>‘, ‘<strong>delitem</strong>‘, ‘<strong>dir</strong>‘, ‘<strong>doc</strong>‘, ‘<strong>eq</strong>‘, ‘<strong>format</strong>‘, ‘<strong>ge</strong>‘, ‘<strong>getattribute</strong>‘, ‘<strong>getitem</strong>‘, ‘<strong>gt</strong>‘, ‘<strong>hash</strong>‘, ‘<strong>init</strong>‘, ‘<strong>iter</strong>‘, ‘<strong>le</strong>‘, ‘<strong>len</strong>‘, ‘<strong>lt</strong>‘, ‘<strong>ne</strong>‘, ‘<strong>new</strong>‘, ‘<strong>reduce</strong>‘, ‘<strong>reduce_ex</strong>‘, ‘<strong>repr</strong>‘, ‘<strong>setattr</strong>‘, ‘<strong>setitem</strong>‘, ‘<strong>sizeof</strong>‘, ‘<strong>str</strong>‘, ‘<strong>subclasshook</strong>‘, ‘clear’, ‘copy’, ‘fromkeys’, ‘get’, ‘items’, ‘keys’, ‘pop’, ‘popitem’, ‘setdefault’, ‘update’, ‘values’]</module></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>copy()方法返回字典的浅拷贝。</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>a ={1:’one’,2:’two’,3:’three’}<br>b = a.copy()<br>c = a #赋值<br>c<br>{1: ‘one’, 2: ‘two’, 3: ‘three’}<br>a<br>{1: ‘one’, 2: ‘two’, 3: ‘three’}<br>b<br>{1: ‘one’, 2: ‘two’, 3: ‘three’}</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#3个值一样，看看id一样不？</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>id(a)<br>53941912<br>id(b)<br>46570352<br>id(c)<br>53941912</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#由此看出，浅拷贝和赋值是不一样的，直接赋值是指向同一个数字只是标签不同，那浅拷贝也是一种拷贝，只是对对象表层的一个拷贝。<br>直接赋值是贴了个不用的标签在相同的数据上<br>比如</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>c[4] = ‘four’<br>c<br>{1: ‘one’, 2: ‘two’, 3: ‘three’, 4: ‘four’}<br>a<br>{1: ‘one’, 2: ‘two’, 3: ‘three’, 4: ‘four’}<br>b<br>{1: ‘one’, 2: ‘two’, 3: ‘three’}<br>pop()和popitem()有什么区别呢?<br>移除字典数据pop()方法的作用是：删除指定给定键所对应的值，返回这个值并从字典中把它移除。注意字典pop()方法与列表pop()方法作用完全不同。<br>字典popitem()方法作用是：随机返回并删除字典中的一对键和值（项），为什么是随机删除呢？因为字典是无序的，没有所谓的“最后一项”或是其它顺序。在工作时如果遇到需要逐一删除项的工作，用popitem()方法效率很高。</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>简单来说，pop()给定键弹出值,popitem()弹出项</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>a.pop(2)<br>‘two’<br>a<br>{1: ‘one’, 3: ‘three’, 4: ‘four’}<br>a.popitem() #随机弹出，并删除<br>(1, ‘one’)<br>a<br>{3: ‘three’, 4: ‘four’}<br>Python 字典 setdefault() 函数和get() 方法类似, 如果键不存在于字典中，将会添加键并将值设为默认值。<br>a = {3:’three’,4:’four’}<br>a<br>{3: ‘three’, 4: ‘four’}<br>a.setdefault(‘小白’)<br>a.setdefault(5,’five’)<br>‘five’<br>a<br>{‘小白’: None, 3: ‘three’, 4: ‘four’, 5: ‘five’}<br>Python 字典(Dictionary) update() 函数把字典dict2的键/值对更新到dict里<br>a<br>{‘小白’: None, 3: ‘three’, 4: ‘four’, 5: ‘five’}<br>b = {‘小白’:’狗’}  #把b中的值更新到a中<br>a.update(b)<br>a<br>{‘小白’: ‘狗’, 3: ‘three’, 4: ‘four’, 5: ‘five’}<br>027集合:在我的世界里，你就是唯一<br>在python3里面花括号中的数没有体现映射关系，那么数字就是集合<br>集合里面所有的元素都是唯一的，它都具有唯一性<br>num2 = {1,2,3,4,5,5,4,3,2}<br>num2<br>{1, 2, 3, 4, 5}<br>集合是无序的，你不能去索引集合中的某一个元素,不支持索引<br>num2[2]<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>TypeError: ‘set’ object does not support indexing<br>27.1那么如何创建一个集合呢？<br>一种是直接把一对元素用花括号括起来(如上)<br>一种是使用set()工厂函数(可以传入元组，列表，字符串)<br>set1 = set([1,2,3,4,5,5])<br>set1<br>{1, 2, 3, 4, 5}</module></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>###来来做道题<br>***要求:去掉列表中重复的元素<br>[0,1,2,3,4,5,5,3,1]</p>
+<p>#如果没学这节课我们可能这样做</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>num1 = [1, 2, 3, 4, 5, 5, 3, 1, 0]<br>temp = []<br>for each in num1:<br>    if each not in temp:<br>        temp.append(each)</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>temp<br>[1, 2, 3, 4, 5, 0]</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#学习了集合我们可以这么做,但转化为列表后不能保证原来的顺序，因为集合是无序的，请注意</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>num1 = list(set(num1))<br>num1<br>[0, 1, 2, 3, 4, 5]<br>27.2 如何访问集合中的值<br>可以使用for把集合中的数据一个个读取出来<br>可以通过in和not in 判断一个元素是否在集合中已经存在<br>num2<br>{1, 2, 3, 4, 5}<br>1 in num2<br>True<br>‘1’ in num2  #如果改成字符串，那就成false了<br>False<br>内置方法：add remove<br>num2.add(6)<br>num2<br>{1, 2, 3, 4, 5, 6}<br>num2.remove(5)<br>num2<br>{1, 2, 3, 4, 6}<br>27.3不可变集合<br>frozenset() 返回一个冻结的集合，冻结后集合不能再添加或删除任何元素<br>num3 = frozenset([1,2,3,4,5])<br>num3.add(0)  #压根就不能改变，所有也无法添加<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>AttributeError: ‘frozenset’ object has no attribute ‘add’<br>28 因为懂你，所以永恒<br>我们知道大多数程序都遵循输入输出处理的模型 ，今天主要学习文件的读取写入和关闭等，具体查看文件对象方法。<br>注：文件写入是先写入内存的，关闭以后才会正确保存到文件中<br>python 会缓存你的写入文件，如果断电缓存数据不会写入到文件中，所以关闭文件还是比较重要的<br>1）f.read()： 是按字符读取，一个字符等于两个字节，英文符号代表一个字节<br>2）f.read(size)：每次读取size个字符<br>3）f.readline()：是按行读取内容<br>4）f.seek(offert,start)：移动文件指针<br>5）f.tell()：告诉当前文件的指针<br>6）f.write()：返回写入字符的个数<br>注：写入文件前，请确保文件的打开模式是’w’ or ‘a’<br>写入后必须关闭（f.close()），否则写入内容还在缓存区内，关闭以后可以看见文件大小由0到有</module></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#迭代读取文本中的某一行，一些朋友可能会这么写</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>lines = list(f)<br>for each_line in lines:<br>    print(each_line)</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>当当当当<br>当当当当当当当当<br>没心情</p>
+<p>#但这me写效率不高，应该这么写</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>f.seek(0, 0)<br>0<br>for each_line in f:<br>    print(each_line)</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>呀呀呀呀呀呀看到没这里有很多字啊<br>当当当当<br>当当当当当当当当<br>没心情<br>晚上又有招待<br>昨天刚有<br>中午还有<br>29文件:一个任务<br><del>~</del>狂拽酷炫吊炸天的我又来了，，，一批小笔记席卷而来，，接住<del>~</del>~~</p>
+<h1 id="任务：将文件（record-txt中的数据进行分割）"><a href="#任务：将文件（record-txt中的数据进行分割）" class="headerlink" title="任务：将文件（record.txt中的数据进行分割）"></a>任务：将文件（record.txt中的数据进行分割）</h1><h1 id="将小时对话单独保存为boy-txt的文件（去掉”小时-”"><a href="#将小时对话单独保存为boy-txt的文件（去掉”小时-”" class="headerlink" title="将小时对话单独保存为boy_*.txt的文件（去掉”小时:”)"></a>将小时对话单独保存为boy_*.txt的文件（去掉”小时:”)</h1><h1 id="将二岁对话单独保存为girl-txt的文件-去掉”二岁-”"><a href="#将二岁对话单独保存为girl-txt的文件-去掉”二岁-”" class="headerlink" title="将二岁对话单独保存为girl_*.txt的文件(去掉”二岁:”)"></a>将二岁对话单独保存为girl_*.txt的文件(去掉”二岁:”)</h1><h1 id="文件对话有三段，分别保存为boy-1-txt，girl-1-txt-boy-2-txt，girl-2-txt-boy-3-txt-girl-3-txt共6个文件（提示不同的对话间已经使用”-”分割）"><a href="#文件对话有三段，分别保存为boy-1-txt，girl-1-txt-boy-2-txt，girl-2-txt-boy-3-txt-girl-3-txt共6个文件（提示不同的对话间已经使用”-”分割）" class="headerlink" title="文件对话有三段，分别保存为boy_1.txt，girl_1.txt,boy_2.txt，girl_2.txt,boy_3.txt,girl_3.txt共6个文件（提示不同的对话间已经使用”====================”分割）"></a>文件对话有三段，分别保存为boy_1.txt，girl_1.txt,boy_2.txt，girl_2.txt,boy_3.txt,girl_3.txt共6个文件（提示不同的对话间已经使用”====================”分割）</h1><h1 id="f-open-‘D-record1-txt’-打开目标文件"><a href="#f-open-‘D-record1-txt’-打开目标文件" class="headerlink" title="f = open(‘D:\record1.txt’) #打开目标文件"></a>f = open(‘D:\record1.txt’) #打开目标文件</h1><h1 id="boy"><a href="#boy" class="headerlink" title="boy = []"></a>boy = []</h1><h1 id="girl-对两个列表进行初始化"><a href="#girl-对两个列表进行初始化" class="headerlink" title="girl = []   #对两个列表进行初始化"></a>girl = []   #对两个列表进行初始化</h1><h1 id="count-1-初始化的计算器"><a href="#count-1-初始化的计算器" class="headerlink" title="count = 1   #初始化的计算器"></a>count = 1   #初始化的计算器</h1><h1 id="for-each-line-in-f-每次获取一行，并对获取到的行判断前6个是不是"><a href="#for-each-line-in-f-每次获取一行，并对获取到的行判断前6个是不是" class="headerlink" title="for each_line in f: #每次获取一行，并对获取到的行判断前6个是不是="></a>for each_line in f: #每次获取一行，并对获取到的行判断前6个是不是=</h1><h1 id="if-each-line-6-‘-’"><a href="#if-each-line-6-‘-’" class="headerlink" title="if each_line[:6] != ‘======’:"></a>if each_line[:6] != ‘======’:</h1><h1 id="role-line-spoken-each-line-split-‘-’-1-我们这里进行字符串分割操作"><a href="#role-line-spoken-each-line-split-‘-’-1-我们这里进行字符串分割操作" class="headerlink" title="(role, line_spoken) = each_line.split(‘:’,1) #我们这里进行字符串分割操作"></a>(role, line_spoken) = each_line.split(‘:’,1) #我们这里进行字符串分割操作</h1><h1 id="if-role-‘小时’-文件分别保存操作，存放的话需要初始化两个列表"><a href="#if-role-‘小时’-文件分别保存操作，存放的话需要初始化两个列表" class="headerlink" title="if role == ‘小时’:    #文件分别保存操作，存放的话需要初始化两个列表"></a>if role == ‘小时’:    #文件分别保存操作，存放的话需要初始化两个列表</h1><h1 id="boy-append-line-spoken-line-spoken要放在boy列表里面"><a href="#boy-append-line-spoken-line-spoken要放在boy列表里面" class="headerlink" title="boy.append(line_spoken) #line_spoken要放在boy列表里面"></a>boy.append(line_spoken) #line_spoken要放在boy列表里面</h1><h1 id="if-role-‘二岁’"><a href="#if-role-‘二岁’" class="headerlink" title="if role == ‘二岁’:"></a>if role == ‘二岁’:</h1><h1 id="girl-append-line-spoken"><a href="#girl-append-line-spoken" class="headerlink" title="girl.append(line_spoken)"></a>girl.append(line_spoken)</h1><h1 id="else"><a href="#else" class="headerlink" title="else:"></a>else:</h1><h1 id="file-name-boy-‘boy-’-str-count-‘-txt’-需要按照-1-txt来命名，所以需要初始化一个计算器"><a href="#file-name-boy-‘boy-’-str-count-‘-txt’-需要按照-1-txt来命名，所以需要初始化一个计算器" class="headerlink" title="file_name_boy = ‘boy_’ + str(count) + ‘.txt’    #需要按照_1.txt来命名，所以需要初始化一个计算器"></a>file_name_boy = ‘boy_’ + str(count) + ‘.txt’    #需要按照_1.txt来命名，所以需要初始化一个计算器</h1><h1 id="file-name-girl-‘girl-’-str-count-‘-txt’"><a href="#file-name-girl-‘girl-’-str-count-‘-txt’" class="headerlink" title="file_name_girl = ‘girl_’ + str(count) + ‘.txt’"></a>file_name_girl = ‘girl_’ + str(count) + ‘.txt’</h1><h1 id="boy-file-open-file-name-boy-’w’"><a href="#boy-file-open-file-name-boy-’w’" class="headerlink" title="boy_file = open(file_name_boy,’w’)"></a>boy_file = open(file_name_boy,’w’)</h1><h1 id="girl-file-open-file-name-girl-’w’"><a href="#girl-file-open-file-name-girl-’w’" class="headerlink" title="girl_file = open(file_name_girl,’w’)"></a>girl_file = open(file_name_girl,’w’)</h1><h1 id="boy-file-writelines-boy-将boy写入-writelines-是将序列进行写入"><a href="#boy-file-writelines-boy-将boy写入-writelines-是将序列进行写入" class="headerlink" title="boy_file.writelines(boy)   #将boy写入 writelines()是将序列进行写入"></a>boy_file.writelines(boy)   #将boy写入 writelines()是将序列进行写入</h1><h1 id="girl-file-writelines-girl"><a href="#girl-file-writelines-girl" class="headerlink" title="girl_file.writelines(girl)"></a>girl_file.writelines(girl)</h1><h1 id="boy-file-close"><a href="#boy-file-close" class="headerlink" title="boy_file.close()"></a>boy_file.close()</h1><h1 id="girl-file-close"><a href="#girl-file-close" class="headerlink" title="girl_file.close()"></a>girl_file.close()</h1><h1 id="boy-1"><a href="#boy-1" class="headerlink" title="boy = []"></a>boy = []</h1><h1 id="girl"><a href="#girl" class="headerlink" title="girl = []"></a>girl = []</h1><h1 id="count-1"><a href="#count-1" class="headerlink" title="count += 1"></a>count += 1</h1><h1 id="file-name-boy-‘boy-’-str-count-‘-txt’"><a href="#file-name-boy-‘boy-’-str-count-‘-txt’" class="headerlink" title="file_name_boy = ‘boy_’ + str(count) + ‘.txt’"></a>file_name_boy = ‘boy_’ + str(count) + ‘.txt’</h1><h1 id="file-name-girl-‘girl-’-str-count-‘-txt’-1"><a href="#file-name-girl-‘girl-’-str-count-‘-txt’-1" class="headerlink" title="file_name_girl = ‘girl_’ + str(count) + ‘.txt’"></a>file_name_girl = ‘girl_’ + str(count) + ‘.txt’</h1><h1 id="boy-file-open-file-name-boy-’w’-1"><a href="#boy-file-open-file-name-boy-’w’-1" class="headerlink" title="boy_file = open(file_name_boy,’w’)"></a>boy_file = open(file_name_boy,’w’)</h1><h1 id="girl-file-open-file-name-girl-’w’-1"><a href="#girl-file-open-file-name-girl-’w’-1" class="headerlink" title="girl_file = open(file_name_girl,’w’)"></a>girl_file = open(file_name_girl,’w’)</h1><h1 id="boy-file-writelines-boy"><a href="#boy-file-writelines-boy" class="headerlink" title="boy_file.writelines(boy)"></a>boy_file.writelines(boy)</h1><h1 id="girl-file-writelines-girl-1"><a href="#girl-file-writelines-girl-1" class="headerlink" title="girl_file.writelines(girl)"></a>girl_file.writelines(girl)</h1><h1 id="boy-file-close-1"><a href="#boy-file-close-1" class="headerlink" title="boy_file.close()"></a>boy_file.close()</h1><h1 id="girl-file-close-1"><a href="#girl-file-close-1" class="headerlink" title="girl_file.close()"></a>girl_file.close()</h1><h1 id="f-close"><a href="#f-close" class="headerlink" title="f.close()"></a>f.close()</h1><p>#来看个更加专业的代码，上面的代码好多重复的啊，所以我们来个更加专业的代码吧</p>
+<p>def save_file(boy,girl,count):<br>    file_name_boy = ‘boy_’ + str(count) + ‘.txt’<br>    file_name_girl = ‘girl_’ + str(count) + ‘.txt’<br>    boy_file = open(file_name_boy,’w’)<br>    girl_file = open(file_name_girl,’w’)<br>    boy_file.writelines(boy)<br>    girl_file.writelines(girl)<br>    boy_file.close()<br>    girl_file.close()</p>
+<p>def split_file(file_name):<br>    f = open(‘D:\record.txt’)<br>    boy = []<br>    girl = []<br>    count = 1<br>    for each_line in f:<br>        if each_line[:6] != ‘======’:<br>            (role, line_spoken) = each_line.split(‘:’,1)<br>            if role == ‘小时’:<br>                boy.append(line_spoken)<br>            if role == ‘二岁’:<br>                girl.append(line_spoken)<br>        else:<br>            save_file(boy,girl,count)<br>            boy = []<br>            girl = []<br>            count += 1<br>    save_file(boy,girl,count)<br>    f.close()<br>split_file(‘record.txt’)<br>30.文件系统：介绍一个高大上的东西</p>
+<p>#os模块中关于文件/目录常用的函数使用方法和os.path模块中关于路径常用的函数使用方法，列表内容在python交流，拓展阅读中</p>
+<p>#今天学习跟python文件相关的模块，先来一个小热身<br>secret = random.randint(1,10)<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>NameError: name ‘random’ is not defined<br>我们试图调用random里面的randint来产生一个1到10的随机数，要想使用randint函数必须引入random模块，所以上面的报错了</module></p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>import random<br>secret = random.randint(1,10)<br>secret<br>4</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#模块:模块就是可用代码段的打包，模块是一个包含所有你定义的函数和变量的文件，其后缀名是.py,模块可以被别的程序引入，以使用该模块中的函数等功能<br>我们python是跨平台的语言，有同样的源代码在不同的操作系统都可以正常实现。OS模块是不需要关心什么操作系统下使用什么模块，OS模块会帮你选择正确的模块并调用<br>OS模块中的函数要先导入才能使用,例如</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>getcwd()<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>NameError: name ‘getcwd’ is not defined<br>import os<br>os.getcwd() #打印当前所在目录<br>‘C:\Users\admin’<br>os.listdir() #列举指定目录中的文件名<br>[‘.android’, ‘.idea’, ‘.idlerc’, ‘.oracle_jre_usage’, ‘.PyCharm10’, ‘.PyCharm2016.1’, ‘.PyCharm50’, ‘.PyCharmCE2017.1’, ‘.rdm’, ‘.RedisClient.properties’, ‘.swt’, ‘AppData’, ‘Application Data’, ‘Contacts’, ‘Cookies’, ‘Desktop’, ‘Documents’, ‘Downloads’, ‘Favorites’, ‘Foxit Reader SDK ActiveX.ini’, ‘IntelGraphicsProfiles’, ‘Known Hosts’, ‘Links’, ‘Local Settings’, ‘Music’, ‘My Documents’, ‘NetHood’, ‘NTUSER.DAT’, ‘ntuser.dat.LOG1’, ‘ntuser.dat.LOG2’, ‘NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf’, ‘NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms’, ‘NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms’, ‘ntuser.ini’, ‘Pictures’, ‘PrintHood’, ‘PyCharm 2016.1.2’, ‘PycharmProjects’, ‘Recent’, ‘Saved Games’, ‘Searches’, ‘SendTo’, ‘Templates’, ‘Videos’, ‘WebpageIcons.db’, ‘「开始」菜单’]<br>os.listdir(‘D:\‘)<br>[‘$RECYCLE.BIN’, ‘01工作专用’, ‘01工作专用.zip’, ‘360Downloads’, ‘360极速浏览器下载’, ‘BaiduNetdiskDownload’, ‘BugReport.txt’, ‘c7b0821cddf802a78a9ea245863281c1’, ‘Config.Msi’, ‘id_rsa_1024’, ‘id_rsa_2048 (2).pub’, ‘id_rsa_2048.pub’, ‘KDR’, ‘Navicat for MySQL’, ‘Program Files’, ‘Program Files (x86)’, ‘PyCharm Community Edition 2017.1.5’, ‘record.txt’, ‘record1.txt’, ‘StormMedia’, ‘Sublime Text3’, ‘System Volume Information’, ‘Users’, ‘vSphere Client’, ‘万能驱动_Win7.x64’, ‘乱舞之刃’, ‘新建文件夹’, ‘网易闪电邮’]<br>os.listdir(‘..’)<br>[‘admin’, ‘All Users’, ‘Default’, ‘Default User’, ‘desktop.ini’, ‘Public’]<br>os.listdir(path = ‘..’)<br>[‘admin’, ‘All Users’, ‘Default’, ‘Default User’, ‘desktop.ini’, ‘Public’]<br>os.mkdir(‘d:\A’)#在D盘创建了一个A目录<br>os.mkdir(‘D:\A\B’)#在D盘的A目录下创建B目录，注意必须父目录必须得存在。</module></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#rmdir(path) 删除单层目录，但如果目录下有文件时无法删除,需要先删除文件，然后再删目录例如：</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>os.rmdir(‘d:\A\B’)<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>OSError: [WinError 145] 目录不是空的。: ‘d:\A\B’<br>os.remove(‘D:\A\B\test.txt’)<br>os.rmdir(‘D:\A\B’)<br>30.2 os.path模块中关于路径常用的函数使用方法<br>basename(path) 去掉目录路径，单独返回文件名<br>dirname(path) 去掉文件名，单独返回目录路径<br>split(path) 分割文件名与路径，返回(f_name,f_extension)元组。如果完全使用目录，他也会将最后一个目录作为文件名分离，且不会判断文件和目录是否存在,例如<br>os.path.split(‘E:\A\SEXY.AVI’)<br>(‘E:\A’, ‘SEXY.AVI’)<br>os.path.split(‘E:\A\B\C’)   #如果都是目录，他也会傻傻的将最后一个目录作为文件名分离<br>(‘E:\A\B’, ‘C’)<br>splitext(path) 分离文件名与扩展名，返回(f_name,f_extension)元组，例如<br>os.path.splitext(‘E:\A\SEXY.AVI’)<br>(‘E:\A\SEXY’, ‘.AVI’)<br>getsize(file) 返回指定文件的尺寸，单位是字节<br>getatime(file) 返回指定文件最近的访问时间(浮点型秒数，可用time模块的gmtime()或localtime()函数换算),例如<br>~~注意啦Python time gmtime() 函数将一个时间戳转换为UTC时区（0时区）的struct_time，可选的参数sec表示从1970-1-1以来的秒数。其默认值为time.time()，函数返回time.struct_time类型的对象。（struct_time是在time模块中定义的表示时间的对象）。<br>import time<br>time.gmtime(os.path.getatime(‘E:\test.txt’))<br>time.struct_time(tm_year=2017, tm_mon=9, tm_mday=14, tm_hour=2, tm_min=44, tm_sec=35, tm_wday=3, tm_yday=257, tm_isdst=0)<br>Python time localtime() 函数类似gmtime()，作用是格式化时间戳为本地的时间。 如果sec参数未输入，则以当前时间为转换标准。 DST (Daylight Savings Time) flag (-1, 0 or 1) 是否是夏令时<br>time.localtime(os.path.getatime(‘E:\test.txt’))<br>time.struct_time(tm_year=2017, tm_mon=9, tm_mday=14, tm_hour=10, tm_min=44, tm_sec=35, tm_wday=3, tm_yday=257, tm_isdst=0)<br>getctime(file) 返回指定文件的创建时间(浮点型秒数，可用time模块的gmtime()或localtime()函数换算)<br>getmtime(file) 返回指定文件最新的修改时间(浮点型秒数，可用time模块的gmtime()或localtime()函数换算)</module></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#如果文件内容我们修改一下，看看会有什么效果<br>time.localtime(os.path.getmtime(‘E:\test.txt’))<br>time.struct_time(tm_year=2017, tm_mon=9, tm_mday=14, tm_hour=10, tm_min=59, tm_sec=32, tm_wday=3, tm_yday=257, tm_isdst=0)<br>看到木有，修改时间变了，但创建时间不会变哦<br>time.localtime(os.path.getctime(‘E:\test.txt’))<br>time.struct_time(tm_year=2017, tm_mon=9, tm_mday=14, tm_hour=10, tm_min=44, tm_sec=35, tm_wday=3, tm_yday=257, tm_isdst=0)<br>031永久存储：腌制一缸美味的泡菜<br>1.pickle模块：pickle模块的作用是可以将一个对象永久化存储。换个说法就是别的write，赋值这些操作只不过是一次性的塑料袋，用过后就会被python的“垃圾站”慢慢清理掉，而pickle模块就像是一个布袋子，只要你没有将他丢弃，那么他就是一直存在的。这个模块往往可以用来存储重要的且需要经常调用的函数等代码。编出来的程序会很精简</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>import pickle<br>my_list = [123,3.14,’小甲鱼’,[‘another list’]]<br>pickle_file = open(‘my_list.pkl’,’wb’)#my_list.pkl自是我己创建的文件，wb是write，binary的缩写，意思是以写的形式打开文件，二进制写入。举一反三，r就是read的缩写，意思是以读的形式打开文件。<br>pickle.dump(my_list,pickle_file)#将my_list上传到my_list.pkl中<br>pickle_file.close()#关闭文件<br>pickle_file = open(‘my_list.pkl’,’rb’)<br>my_list2 = pickle.load(pickle_file)#pickle.load(下载文件)：相对应的，我喜欢把pickle.load这个函数称为下载函数，也就是括号中的文件是你想从硬盘中拿出来的，这个函数用法相对简单些，只要把想拿出来用的文件名写出来就可以。<br>print(my_list2)<br>[123, 3.14, ‘小甲鱼’, [‘another list’]]</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h1 id="关于新手调用有道翻译，不能成功问题。在下重新抓了一下接口"><a href="#关于新手调用有道翻译，不能成功问题。在下重新抓了一下接口" class="headerlink" title="关于新手调用有道翻译，不能成功问题。在下重新抓了一下接口"></a>关于新手调用有道翻译，不能成功问题。在下重新抓了一下接口</h1><p>import requests<br>import time<br>import hashlib</p>
+<p>if <strong>name</strong>== “<strong>main</strong>“:<br>    m = hashlib.md5()<br>    d = ‘你是我的唯一’<br>    u = ‘fanyideskweb’<br>    f = str(int(time.time()*1000))<br>    c = “rY0D^0’nM0}g5Mm1z%1G4”<br>    m.update((u + d + f + c).encode(‘utf-8’))<br>    data= {<br>        ‘i’:d,<br>        ‘from’:’AUTO’,<br>        ‘to’:’AUTO’,<br>        ‘smartresult’:’dict’,<br>        ‘client’:u,<br>        ‘salt’:f,<br>        ‘sign’:m.hexdigest(),<br>        ‘doctype’:’json’,<br>        ‘version’:’2.1’,<br>        ‘keyfrom’:’fanyi.web’,<br>        ‘action’:’FY_BY_ENTER’,<br>        ‘typoResult’:’true’<br>    }<br>    headers = {<br>        ‘User-Agent’:’Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36’,<br>        ‘Origin’:’<a href="http://fanyi.youdao.com/&#39;" target="_blank" rel="noopener">http://fanyi.youdao.com/&#39;</a>,<br>        ‘Referer’:’<a href="http://fanyi.youdao.com/&#39;" target="_blank" rel="noopener">http://fanyi.youdao.com/&#39;</a>,<br>    }<br>    print(data)<br>    post_url = ‘<a href="http://fanyi.youdao.com/translate_o?smartresult=dict&amp;smartresult=rule&amp;sessionFrom=null&#39;" target="_blank" rel="noopener">http://fanyi.youdao.com/translate_o?smartresult=dict&amp;smartresult=rule&amp;sessionFrom=null&#39;</a><br>    youdaojson = requests.post(post_url,headers = headers,data=data).json()<br>    print(youdaojson)</p>
+<pre><code>#哈哈 整了一篇代码，调用有道翻译的问题，果然放在笔记里瞬间高大上多了。。。。
+</code></pre><p>032异常处理：你不可能总是对的<br>请参考python标准异常总结<br>先写个代码吧</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>my_list = [‘夏小小’]<br>assert len(my_list) &gt; 0<br>print (my_list)<br>[‘夏小小’]<br>assert len(my_list)&gt;0  #看到没，有值的话没有返回错误<br>my_list.pop() #当我们把值清空<br>‘夏小小’<br>assert len(my_list)&gt;0   #看到没，酱紫就报错了<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>AssertionError       #报错了，这就是第一个 断言语句(assert)失败<br>my_list = [1,2,3]<br>my_list[3]<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>IndexError: list index out of range #这是第二个 IndexError索引超出序列的范围<br>my_list[2]   #正确的应该这样<br>3<br>my_dict = {‘one’:1,’two’:2,’three’:3}<br>my_dict[‘one’]<br>1<br>my_dict[‘four’]<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>KeyError: ‘four’<br>033异常处理：你不可能总是对的2<br>如何检测并处理异常<br>33.1 try-except语句<br>举个例子吧<br>f = open(‘我为什么是个文件.txt’)<br>print(f.read())<br>f.close()</module></module></module></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>Traceback (most recent call last):<br>  File “C:/Users/admin/PycharmProjects/untitled1/lianxi.py”, line 308, in <module><br>    f = open(‘我为什么是个文件.txt’)<br>FileNotFoundError: [Errno 2] No such file or directory: ‘我为什么是个文件.txt’<br>执行完上述语句会报错，因为文件不存在，那我们能否，让报错更清晰易懂些呢<br>try:<br>    f = open(‘我为什么是一个文件.txt’)<br>    print(f.read())<br>except OSError:<br>    print(‘文件出错啦 T_T！’)<br>    执行完后，输出 文件出错啦 T_T！<br>    用户体验好很多，但程序员会在意错误的具体内容，所以我们改一下脚本,这是一种用法<br>    try:<br>        f = open(‘我为什么是一个文件.txt’)<br>        print(f.read())<br>        f.close()<br>    except OSError as reason:<br>        print(‘文件出错啦 T_T！’ + str(reason))</module></p>
+<p>文件出错啦 T_T！[Errno 2] No such file or directory: ‘我为什么是一个文件.txt’<br>try:<br>    sum = 1 + ‘1’<br>    f = open(‘我为什么是一个文件.txt’)<br>    print(f.read())<br>    f.close()<br>except OSError as reason:<br>    print(‘文件出错啦 T_T！错误的原因是:’ + str(reason))<br>except TypeError as reason:<br>    print(‘类型出错啦 T_T！错误的原因是:’ + str(reason))<br>类型出错啦 T_T！错误的原因是:unsupported operand type(s) for +: ‘int’ and ‘str’<br>注意:如果你无法确定对哪一类的异常进行处理，只是希望在串语句块里面一旦出现任何异常 只向给用户一个看得懂的提醒，你可以这么做。只要碰到异常就提示出错，但是并不推荐，因为他会隐藏为处理的异常和错误<br>try:<br>    int(‘abc’)<br>    sum = 1 + ‘1’<br>    f = open(‘我为什么是一个文件.txt’)<br>    print(f.read())<br>    f.close()<br>except:<br>    print(‘出错啦 T_T！’)<br>另外串语句检测范围一旦出现异常，剩下的语句将不会被执行<br>同时对多个异常进行统一的处理，打印的结果是一条<br>33.2 try-finally<br>    try:<br>        检测范围<br>    except Exception[as reason]:<br>        出现异常后的处理代码<br>    finally:<br>        无论如何都会被执行的代码<br>举个例子<br>执行完下面代码，只要文件存在，相对应的内容也会写入到文件中<br>try:<br>    f = open(‘我是一个文件.txt’,’w’)<br>    print(f.write(‘你存在!’))<br>    sum = 1 + ‘1’<br>except (OSError,TypeError):<br>    print(‘出错啦 T_T！’)<br>finally:   #无论如何都会被执行的代码<br>    f.close()<br>4<br>出错啦 T_T！<br>33.3 raise语句<br>代码能否自己引发异常？？？</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>raise<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>RuntimeError: No active exception to reraise</module></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>raise ZeroDivisionError(‘除数为零的异常’) #异常的解释内容<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>ZeroDivisionError: 除数为零的异常<br>034丰富的else语句及简洁的with语句<br>来一个脚本<br>def showMaxFactor(num):<br>    count = num // 2   #2是最小的因数，除以2之后count得到2是最大的因数<br>    while count &gt; 1:<br>        if num % count == 0:<br>            print(‘%d最大的约数是%d’ % (num,count))<br>            break<br>        count -= 1  #每次减去1，一个一个尝试<br>    else:<br>        print(‘%d是素数！’ % num)<br>num = int(input(‘请输入一个数:’))<br>showMaxFactor(num)<br>简洁的with语句</module></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#以下没有data.txt文件会报错，以下两种方法得到的结果是一样的<br>try:<br>    f = open(‘data.txt’,’w’)<br>    for each_line in f:<br>        print(each_line)<br>except OSError as reason:<br>    print(‘出错啦:’ + str(reason))<br>finally:<br>   f.close()</p>
+<h1 id="try"><a href="#try" class="headerlink" title="try:"></a>try:</h1><h1 id="with-open-‘data-txt’-’w’-as-f"><a href="#with-open-‘data-txt’-’w’-as-f" class="headerlink" title="with open(‘data.txt’,’w’) as f:"></a>with open(‘data.txt’,’w’) as f:</h1><h1 id="for-each-line-in-f"><a href="#for-each-line-in-f" class="headerlink" title="for each_line in f:"></a>for each_line in f:</h1><h1 id="print-each-line"><a href="#print-each-line" class="headerlink" title="print(each_line)"></a>print(each_line)</h1><h1 id="except-OSError-as-reason"><a href="#except-OSError-as-reason" class="headerlink" title="except OSError as reason:"></a>except OSError as reason:</h1><h1 id="print-‘出错啦-’-str-reason"><a href="#print-‘出错啦-’-str-reason" class="headerlink" title="print(‘出错啦:’ + str(reason))"></a>print(‘出错啦:’ + str(reason))</h1><p>035图形用户界面入门：EasyGui<br>1.安装<br>首先需要安装EasyGui,在cmd窗口，切换目录到桌面cd desktop,然后D:\BaiduNetdiskDownload\python\python.ext setup.py install 安装完毕目录在D:\BaiduNetdiskDownload\python\Lib\site-packages目录下<br>2.导入easygui<br>第一种导入</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>import easygui #导入的话会比较麻烦<br>easygui.msgbox(‘嗨，中午好’)<br>‘OK’<br>easygui.msgbox(‘那就撞以下南墙’)<br>‘OK’<br>第二种导入 #导入整个easygui包，我们更容易调用easygui函数，但会出现问题，导入之后之前同样名字的函数会被覆盖<br>from easygui import *<br>msgbox(‘hai’)<br>‘OK’<br>第三种导入#既可以保持easygui的命名空间，也比较简单直接可以调用<br>import easygui as g<br>g.msgbox(‘嗨，黄花菜’)<br>‘OK’</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#这里有三个脚本</p>
+<h1 id="import-easygui-as-g"><a href="#import-easygui-as-g" class="headerlink" title="import easygui as g"></a>import easygui as g</h1><h1 id="import-sys"><a href="#import-sys" class="headerlink" title="import sys"></a>import sys</h1><h1 id="while-1"><a href="#while-1" class="headerlink" title="while 1:"></a>while 1:</h1><h1 id="g-msgbox-‘嗨，欢迎进入第一个界面-小游戏’"><a href="#g-msgbox-‘嗨，欢迎进入第一个界面-小游戏’" class="headerlink" title="g.msgbox(‘嗨，欢迎进入第一个界面^_^小游戏’)"></a>g.msgbox(‘嗨，欢迎进入第一个界面^_^小游戏’)</h1><h1 id="msg-‘请问你想玩什么游戏呢？’"><a href="#msg-‘请问你想玩什么游戏呢？’" class="headerlink" title="msg = ‘请问你想玩什么游戏呢？’"></a>msg = ‘请问你想玩什么游戏呢？’</h1><h1 id="title-‘游戏互动’"><a href="#title-‘游戏互动’" class="headerlink" title="title = ‘游戏互动’"></a>title = ‘游戏互动’</h1><h1 id="choices-‘消消乐’-’乐高’-’汉诺塔’-’推理’"><a href="#choices-‘消消乐’-’乐高’-’汉诺塔’-’推理’" class="headerlink" title="choices = [‘消消乐’,’乐高’,’汉诺塔’,’推理’]"></a>choices = [‘消消乐’,’乐高’,’汉诺塔’,’推理’]</h1><h1 id="choice-g-choicebox-msg-title-choices"><a href="#choice-g-choicebox-msg-title-choices" class="headerlink" title="choice = g.choicebox(msg,title,choices)"></a>choice = g.choicebox(msg,title,choices)</h1><h1 id="g-msgbox-“你的选择是-“-str-choice-”结果”"><a href="#g-msgbox-“你的选择是-“-str-choice-”结果”" class="headerlink" title="g.msgbox(“你的选择是: “ + str(choice),”结果”)"></a>g.msgbox(“你的选择是: “ + str(choice),”结果”)</h1><h1 id="msg-“你希望重新开始游戏吗-”"><a href="#msg-“你希望重新开始游戏吗-”" class="headerlink" title="msg = “你希望重新开始游戏吗?”"></a>msg = “你希望重新开始游戏吗?”</h1><h1 id="title-“请选择”"><a href="#title-“请选择”" class="headerlink" title="title = “请选择”"></a>title = “请选择”</h1><h1 id="if-g-ccbox-msg-title"><a href="#if-g-ccbox-msg-title" class="headerlink" title="if g.ccbox(msg,title):"></a>if g.ccbox(msg,title):</h1><h1 id="pass"><a href="#pass" class="headerlink" title="pass"></a>pass</h1><h1 id="else-1"><a href="#else-1" class="headerlink" title="else:"></a>else:</h1><h1 id="sys-exit-0"><a href="#sys-exit-0" class="headerlink" title="sys.exit(0)"></a>sys.exit(0)</h1><h1 id="import-easygui-as-g-1"><a href="#import-easygui-as-g-1" class="headerlink" title="import easygui as g"></a>import easygui as g</h1><h1 id="import-sys-1"><a href="#import-sys-1" class="headerlink" title="import sys"></a>import sys</h1><h1 id="while-1-1"><a href="#while-1-1" class="headerlink" title="while 1:"></a>while 1:</h1><h1 id="g-msgbox-‘SE手机壳’"><a href="#g-msgbox-‘SE手机壳’" class="headerlink" title="g.msgbox(‘SE手机壳’)"></a>g.msgbox(‘SE手机壳’)</h1><h1 id="msg-‘校车版’"><a href="#msg-‘校车版’" class="headerlink" title="msg = ‘校车版’"></a>msg = ‘校车版’</h1><h1 id="title-‘小时商城’"><a href="#title-‘小时商城’" class="headerlink" title="title = ‘小时商城’"></a>title = ‘小时商城’</h1><h1 id="choices-‘粉色’-’绿色’-’蓝色’-’黄色’-’白色’"><a href="#choices-‘粉色’-’绿色’-’蓝色’-’黄色’-’白色’" class="headerlink" title="choices = [‘粉色’,’绿色’,’蓝色’,’黄色’,’白色’]"></a>choices = [‘粉色’,’绿色’,’蓝色’,’黄色’,’白色’]</h1><h1 id="choice-g-choicebox-msg-title-choices-1"><a href="#choice-g-choicebox-msg-title-choices-1" class="headerlink" title="choice = g.choicebox(msg,title,choices)"></a>choice = g.choicebox(msg,title,choices)</h1><h1 id="g-msgbox-“你的选择是-”-str-choice-”购物车”"><a href="#g-msgbox-“你的选择是-”-str-choice-”购物车”" class="headerlink" title="#g.msgbox(“你的选择是:” + str(choice),”购物车”)"></a>#g.msgbox(“你的选择是:” + str(choice),”购物车”)</h1><h1 id="g-msgbox-str-choice-“-放入你的购物车”"><a href="#g-msgbox-str-choice-“-放入你的购物车”" class="headerlink" title="g.msgbox(str(choice)+ “ 放入你的购物车”)"></a>g.msgbox(str(choice)+ “ 放入你的购物车”)</h1><h1 id="msg-“确定放弃重新选择-”"><a href="#msg-“确定放弃重新选择-”" class="headerlink" title="msg = “确定放弃重新选择?”"></a>msg = “确定放弃重新选择?”</h1><h1 id="title-‘选择’"><a href="#title-‘选择’" class="headerlink" title="title = ‘选择’"></a>title = ‘选择’</h1><h1 id="if-g-ccbox-msg-title-1"><a href="#if-g-ccbox-msg-title-1" class="headerlink" title="if g.ccbox(msg,title):"></a>if g.ccbox(msg,title):</h1><h1 id="pass-1"><a href="#pass-1" class="headerlink" title="pass"></a>pass</h1><h1 id="else-2"><a href="#else-2" class="headerlink" title="else:"></a>else:</h1><h1 id="sys-exit-0-1"><a href="#sys-exit-0-1" class="headerlink" title="sys.exit(0)"></a>sys.exit(0)</h1><h1 id="coding-utf-8"><a href="#coding-utf-8" class="headerlink" title="coding:utf-8"></a>coding:utf-8</h1><h1 id="author-‘Mark-sinoberg’"><a href="#author-‘Mark-sinoberg’" class="headerlink" title="author = ‘Mark sinoberg’"></a><strong>author</strong> = ‘Mark sinoberg’</h1><h1 id="date-‘2016-5-25’"><a href="#date-‘2016-5-25’" class="headerlink" title="date = ‘2016/5/25’"></a><strong>date</strong> = ‘2016/5/25’</h1><h1 id="Desc-一个最简单的类似于Java的MessageBox的小窗口"><a href="#Desc-一个最简单的类似于Java的MessageBox的小窗口" class="headerlink" title="Desc =  一个最简单的类似于Java的MessageBox的小窗口"></a><strong>Desc</strong> =  一个最简单的类似于Java的MessageBox的小窗口</h1><p>import easygui<br>title = easygui.msgbox(msg=’提示信息’,title=’标题部分’,ok_button=”OOK”)</p>
+<p>msg = easygui.msgbox(‘Hello Easy GUI’)<br>print (‘返回值：’+ msg)<br>ccbox = easygui.ccbox(“here is Continue | Cancel Box!”)<br>print (‘返回值：’ + str(ccbox))<br>ynbox = easygui.ynbox(“Yes Or No Button Box!”)<br>print (‘返回值: ‘ + str(ynbox))<br>036类和对象：给大家介绍对象<br>36.1<br>对象 = 属性 + 访问字典的几个方法<br>class Turtle:  # 类名一般用大写字母开头<br>    color = ‘green’<br>    weight = ‘18’<br>    legs = 4<br>    shell = True<br>    mouth = ‘大嘴’</p>
+<pre><code>def climb(self):
+    print(&quot;我正在努力的向前爬·····&quot;)
+
+def run(self):
+    print(&quot;我正在飞快的向前你跑······&quot;)
+
+def bite(self):
+    print(&quot;咬死你！&quot;)
+
+def eat(self):
+    print(&quot;有得吃！&quot;)
+
+def sleep(self):
+    print(&quot;困了，晚安Zzzzz&quot;)
+</code></pre><p>tt = Turtle()<br>Turtle()<br>&lt; Turtle object at 0x0330B990 &gt;<br>tt.climb()<br>我正在努力的向前爬·····<br>tt.bite()<br>咬死你！<br>tt.sleep()<br>困了，晚安Zzzzz</p>
+<p>36.2面向对象的特征：封装 继承 多态<br>36.2.1封装 信息隐蔽技术</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>list = [2,1,4,3,5]<br>list.sort()<br>list<br>[1, 2, 3, 4, 5]<br>list.append(9)<br>list<br>[1, 2, 3, 4, 5, 9]<br>36.2.2继承 是子类自动共享父类之间数据和方法的机制，例如<br>class MyList(list):<br>    pass<br>list2 = MyList()<br>list2.append(5)<br>list2.append(3)<br>list.append(7)<br>list2<br>[5,3,7]<br>list.sort()<br>list2<br>[3,5,7]<br>36.2.3 多态 是不同对象对同一方法响应不同的行动，例如以下名字一样，但实现不一样就是多态</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>class A:<br>    def fun(self):<br>        print(‘我是小A···’)<br>class B:<br>    def fun(self):<br>        print(‘我是小B···’)<br>a = A()<br>b = B()<br>a.fun()<br>我是小A···<br>037类和对象：面向对象编程<br>37.1 你听说过python方法吗？<br>self 是什么？ python中的self相当于C++ 的this指针<br>上节课我们说过类是图纸，而由类实例化后的对象才是真正可以住人的房子。<br>根据一张图纸我们可以设计出成千上万的房子，他们的房子很相似因为都来源于同一张图纸，但是他们都有不同的组员，每个人都只能回到自己的家玩弄自己的孩子，所以self就相当于每个房子的门牌号，有了self就可以轻松找到自己的房子。<br>python的self参数是同一个道理，由同一个类生成无数个对象，这些对象都很相似因为他们都是来源于同一个类的属性和方法。当一个类的方法被调用的时候，对象会将自身作为第一个参数传给self参数，接收到self的时候，python就知道你是哪一个对象在调用方法了。<br>我们举一个例子来感受一下</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>class Ball:<br>        def setName(self, name):<br>            self.name = name</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<pre><code>def kick(self):
+    print(&apos;我叫%s,该死的，谁踢我···&apos; % self.name)
+</code></pre><blockquote>
+<blockquote>
+<blockquote>
+<p>a = Ball()<br>a.setName(‘宸晨’)<br>b = Ball()<br>b.setName(‘xiaoshi’)<br>c = Ball()<br>c.setName(‘tudou’)<br>a.kick()<br>我叫宸晨, 该死的，谁踢我···<br>c.kick()<br>我叫tudou, 该死的，谁踢我···<br>37.2你听说过python的魔法方法吗？<br>先学习<strong>init</strong>(self)方法，init方法称之为构造方法，init方法的魔力体现在只要实例化一个对象的时候，那么这个方法就会在对象被创建的时候自动调用<br>我们先来举个例子：</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>class Ball:<br>        def <strong>init</strong>(self, name):<br>            self.name = name</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<pre><code>def kick(self):
+    print(&apos;我叫%s,该死的，谁踢我···&apos; % self.name)
+</code></pre><blockquote>
+<blockquote>
+<blockquote>
+<p>b = Ball(‘土豆’)<br>b.kick()<br>我叫土豆, 该死的，谁踢我···</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#如果传默认参数的话不会报错，</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>class Ball:<br>        def <strong>init</strong>(self, name=’gaga’):<br>            self.name = name</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<pre><code>def kick(self):
+    print(&apos;我叫%s,该死的，谁踢我···&apos; % self.name)
+</code></pre><blockquote>
+<blockquote>
+<blockquote>
+<p>b = Ball()<br>b.kick()<br>我叫gaga, 该死的，谁踢我···<br>37.3 公有和私有<br>一般面向对象的编程都会区分公有和私有的数据类型<br>对象的属性和方法都是公有的例如<br>class Person:<br>        name = “小甲鱼”</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>p = Person()<br>p.name<br>‘小甲鱼’<br>为了实现类似于私有变量的特征，python内部采用了一种name mangling（名字改编，名字重整）的技术，在Python中定义私有变量只需要在变量名或函数名前加上”_”两个下划线，那么这个函数或变量就会变为私有的了。例如<br>class Person:<br>    __name = “小甲鱼”</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>p = Person()</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>p.<strong>name<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>AttributeError: ‘Person’ object has no attribute ‘</module></strong>name’<br>p.name<br>Traceback (most recent call last):<br>上面的就是把外部将变量名给隐藏起来了，理论上要访问需要从内部进行，例如<br>class Person:<br>    <strong>name = “小甲鱼”<br>    def getName(self):<br>        return self.</strong>name<br>p = Person()<br>p.<strong>name<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>AttributeError: ‘Person’ object has no attribute ‘</module></strong>name’<br>p.getName()  #这样才能得到私有的变量<br>‘小甲鱼’<br>事实上我们可以这么做。<br>_类名<strong>变量名<br>p._Person</strong>name   #事实上就是把<strong>name 改成 _Person</strong>name<br>‘小甲鱼’<br>所以，就目前来说python的私有机制其实就是伪私有，python的类是没有权限控制的，不像其他编程语言，所以变量是可以被外部调用的<br>038类和对象：继承<br>38.1<br>被继承的类我们称之为父类、基类或超类而继承者我们把它称之为子类，一个子类可以继承父类的任何属性和方法。我们举个例子<br>class Parent:   #我们把它定义为父类<br>        def hello(self):<br>            print(‘正在调用父类的方法···’)</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>class Child(Parent):    #定义一个子类，括号里面填写内容决定他是父类还是子类，括号里面填写的就是他的父类<br>        pass</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>p = Parent()    #给父类实例化<br>p.hello()<br>正在调用父类的方法···<br>c = Child()     #子类实例化<br>c.hello()       #因为他是继承了父类所以他是可调用的<br>正在调用父类的方法···<br>需要注意的是如果子类中定义的和父类同名的方法或属性，则会自动覆盖（子类中父类对应的方法和属性）父类对应的方法或属性，例如<br>class Child(Parent):<br>        def hello(self):<br>            print(“正在调用子类的方法。。。”)</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>c = Child()<br>c.hello()   #覆盖的只是子类实例对象里面的方法而已，对父类不受影响<br>正在调用子类的方法。。。<br>p.hello()<br>正在调用父类的方法。。。</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>下面我们来个大工程，写个python的例子<br>现在我们想要扩展游戏，给鱼类进行细分，有金鱼，鲤鱼，三文鱼，还有鲨鱼</p>
+<p>import random as r<br>class Fish:<br>    def <strong>init</strong>(self):     #写一个随机的坐标<br>        self.x = r.randint(0,10)<br>        self.y = r.randint(0,10)<br>    def move(self):     #定义一个move移动的方法<br>        self.x -= 1     #假设鱼都是往西的方向游<br>        print(“我的位置是:”,self.x,self.y)   #把他游完之后的位置打印一下<br>class Goldfish(Fish):<br>    pass<br>class Carp(Fish):<br>    pass<br>class Salmon(Fish):<br>    pass<br>class Shark(Fish):<br>    def <strong>init</strong>(self):<br>        self.hungry= True<br>    def eat(self):<br>        if self.hungry:<br>            print(“吃货的梦想就是天天有的吃^^”)<br>            self.hungry = False<br>        else:<br>            print(“太撑了，吃不下了！”)</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>from lianxi import *</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>fish = Fish()<br>fish.move()<br>我的位置是: 8<br>0<br>fish.move()<br>我的位置是: 7<br>0<br>Goldfish().move()<br>我的位置是: 0 10<br>goldfish = Goldfish()<br>goldfish.move()<br>我的位置是: 8 5<br>goldfish.move()<br>我的位置是: 7 5<br>goldfish.move()<br>我的位置是: 6 5</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>shark = Shark()<br>shark.eat()<br>吃货的梦想就是天天有的吃^^<br>shark.move()<br>Traceback (most recent call last):<br>  File “&lt;pyshell#24&gt;”, line 1, in <module><br>    shark.move()<br>  File “D:/BaiduNetdiskDownload/python/fish.py”, line 7, in move<br>    self.x -= 1     #假设鱼都是往西的方向游<br>AttributeError: ‘Shark’ object has no attribute ‘x’</module></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#那为什么会报错了，从下面的一小段python脚本可以看出，子类重写了init方法，子类重写了父类的方法就会把父类的方法给覆盖，所以相当于父类的方法不见了，所以会报错。<br>class Shark(Fish):<br>    def <strong>init</strong>(self):<br>        self.hungry= True<br>    def eat(self):<br>        if self.hungry:<br>            print(“吃货的梦想就是天天有的吃^^”)<br>            self.hungry = False<br>        else:<br>            print(“太撑了，吃不下了！”)</p>
+<pre><code>#那我们应该怎么改呢？？？？
+38.2
+</code></pre><p>子类重写了父类的方法就会把父类的方法给覆盖掉，那我们应该在鲨鱼的类里面重写init方法的时候先调用子类的init方法<br>那么实现这样的继承总共有两种方法：</p>
+<ul>
+<li>调用未绑定的父类方法</li>
+<li><p>使用super函数<br>1.那我们先使用调用未绑定的父类方法，举个例子<br>import random as r<br>class Fish:<br>  def <strong>init</strong>(self):     #写一个随机的坐标</p>
+<pre><code>self.x = r.randint(0,10)
+self.y = r.randint(0,10)
+</code></pre><p>  def move(self):     #定义一个move移动的方法</p>
+<pre><code>self.x -= 1     #假设鱼都是往西的方向游
+print(&quot;我的位置是:&quot;,self.x,self.y)   #把他游完之后的位置打印一下
+</code></pre><p>class Goldfish(Fish):<br>  pass<br>class Carp(Fish):<br>  pass<br>class Salmon(Fish):<br>  pass<br>class Shark(Fish):<br>  def <strong>init</strong>(self):</p>
+<pre><code>Fish.__init__(self)#修改了这个位置。调用父类的方法，self是子类shark的实例对象，事实上就相当于Fish.__init__(shark)
+self.hungry= True
+</code></pre><p>  def eat(self):</p>
+<pre><code>if self.hungry:
+    print(&quot;吃货的梦想就是天天有的吃^^&quot;)
+    self.hungry = False
+else:
+    print(&quot;太撑了，吃不下了！&quot;)
+</code></pre><p>#例如</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>shark = Shark()<br>Fish.<strong>init</strong>(shark)<br>Fish.<strong>init</strong>(shark)<br>shark.move()<br>我的位置是: 5 3<br>shark.move()<br>我的位置是: 4 3<br>2.使用super函数<br>import random as r<br>class Fish:<br>  def <strong>init</strong>(self):     #写一个随机的坐标</p>
+<pre><code>self.x = r.randint(0,10)
+self.y = r.randint(0,10)
+</code></pre><p>  def move(self):     #定义一个move移动的方法</p>
+<pre><code>self.x -= 1     #假设鱼都是往西的方向游
+print(&quot;我的位置是:&quot;,self.x,self.y)   #把他游完之后的位置打印一下
+</code></pre><p>class Goldfish(Fish):<br>  pass<br>class Carp(Fish):<br>  pass<br>class Salmon(Fish):<br>  pass<br>class Shark(Fish):<br>  def <strong>init</strong>(self):</p>
+<pre><code>super().__init__()  #修改了这个位置self参数也不用传
+self.hungry= True
+</code></pre><p>  def eat(self):</p>
+<pre><code>if self.hungry:
+    print(&quot;吃货的梦想就是天天有的吃^^&quot;)
+    self.hungry = False
+else:
+    print(&quot;太撑了，吃不下了！&quot;)
+</code></pre></blockquote>
+</blockquote>
+</blockquote>
+<p>#super函数的超级之处在于你不用给定任何基类的名字，他会自己帮你一层层找出他所有基类里面对应的方法，由于你不用给出基类的名字，这就意味着你如果需要改变类的继承关系，你只需要修改括号中的类名，修改它父类的名字就可以了<br>38.3多重继承<br>python还支持多重继承，就是可以同时继承多个父类的属性和方法<br>语法：class DerivedClassName(Base1,Base2,Base3):</p>
+<pre><code>......
+</code></pre><blockquote>
+<blockquote>
+<blockquote>
+<p>class Base1:</p>
+<pre><code>def foo1(self):
+    print(&quot;我是foo1，我为Base1代言、、、&quot;)
+</code></pre></blockquote>
+</blockquote>
+</blockquote>
+</li>
+</ul>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>class Base2:<br>        def foo2(self):<br>            print(“我是foo2，我为Base2代言。。。”)</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>class C(Base1, Base2):<br>        pass<br>c = C()<br>c.foo1()<br>我是foo1，我为Base1代言。。。<br>c.foo2()<br>我是foo2，我为Base2代言。。。</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#以上代码就是多继承，同时继承多种属性和方法，但多重继承很容易导致代码混乱，所以当你不确定必须要使用多重继承的时候，请尽量避免使用它，因为有时候就会出现不可预见的bug，对于程序而言，不可预见的bug都是致命的。<br>039类和对象：拾遗<br>39.1组合<br>有时候我们不能用继承和多继承<br>举个例子：先定义一个简单的乌龟类<br>class Turtle:<br>    def <strong>init</strong>(self, x):<br>        self.num = x<br>class Fish:<br>    def <strong>init</strong>(self, x):<br>        self.num = x<br>class Pool:<br>    def <strong>init</strong>(self, x, y):<br>        self.turtle = Turtle(x) #实例化<br>        self.fish = Fish(y)<br>    def print_num(self):<br>        print(“水池里总共有乌龟 %d 只，小鱼 %d 条!” % (self.turtle.num, self.fish.num))</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>pool = Pool(1,10)<br>pool.print_num()<br>水池里总共有乌龟 1 只，小鱼 10 条!<br>这就是组合<br>所谓组合就是把类的实例化放到新类里面，就把旧类组合进去了，就不用继承了，也没有什么风险了。<br>39.2什么是绑定<br>Python严格要求方法需要实例才能被调用，这种限制其实就是Python所谓的绑定概念这是为什么呢？<br>&amp;先举一个错误的例子</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>class BB:<br>        def printBB(): #这里没有self没有绑定<br>            print(“no zuo no die”)</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>BB.printBB() #可以调用，因为BB是类也是类对象，但是。。<br>no zuo no die<br>bb = BB() #假设我把类实例化以后，<br>bb.printBB() #这个对象是调用不了printBB()的。因为它需要一个参数，需要一个绑定的参数。必须得需要一个self参数来接收绑定。<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>TypeError: printBB() takes 0 positional arguments but 1 was given</module></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>为了能更好的理解，还有一个这样的例子</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>class CC:<br>        def setXY(self, x, y):<br>            self.x = x #赋值<br>            self.y = y #赋值</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<pre><code>def printXY(self):
+    print(self.x, self.y)
+</code></pre><blockquote>
+<blockquote>
+<blockquote>
+<p>dd = CC()<br>dd.<strong>dict</strong> #查看它的类型是没有东西的<br>{}<br>CC.<strong>dict</strong> #如果用类对象，注意字典中仅显示实例对象的属性不显示类属性和特殊属性<br>mappingproxy({‘<strong>dict</strong>‘: <attribute '__dict__'="" of="" 'cc'="" objects="">, ‘<strong>module</strong>‘: ‘builtins’, ‘setXY’: <function cc.setxy="" at="" 0x032fb030="">, ‘<strong>doc</strong>‘: None, ‘printXY’: <function cc.printxy="" at="" 0x02c476a8="">, ‘<strong>weakref</strong>‘: <attribute '__weakref__'="" of="" 'cc'="" objects="">})<br>dd.setXY(4,5)<br>dd.<strong>dict</strong> #你会发现这两个属性只属于 dd，我们可以用CC类对象显示一下<br>{‘y’: 5, ‘x’: 4}<br>CC.<strong>dict</strong> #是没有5和4的，那为什么是这个样子的呢，这完全是因为绑定<br>mappingproxy({‘<strong>dict</strong>‘: <attribute '__dict__'="" of="" 'cc'="" objects="">, ‘<strong>module</strong>‘: ‘builtins’, ‘setXY’: <function cc.setxy="" at="" 0x032fb030="">, ‘<strong>doc</strong>‘: None, ‘printXY’: <function cc.printxy="" at="" 0x02c476a8="">, ‘<strong>weakref</strong>‘: <attribute '__weakref__'="" of="" 'cc'="" objects="">})</attribute></function></function></attribute></attribute></function></function></attribute></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#为什么是这样的呢？这完全是因为绑定当dd调用setXY时dd.setXY(4,5)，事实上是这么传入的dd.setXY(dd,4,5),所以上面赋值的时候self.x = x，其实就是dd.4 = 4,4存放进去的其实就是实例对象的一个空间里面，所以这两个属性是只属于实例对象的，这就是self的作用</p>
+<p>#如果我把类实例CC删除，那对象dd还能否调用printXY的方法？</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>del CC<br>ee = CC() #因为删除了，所以类CC的实例化对象就不行了</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#这里是报错信息</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>dd.printXY() #把类实例CC删除，那对象dd仍然可以调用printXY的方法<br>4 5<br>那为什么是这样的呢？因为类中定义的属性是静态变量方法也一样，就算类对象被删除了，他们依然是存储在内存中的，只有当程序退出的时候这个变量才会被释放<br>所以呢，在大多数情况下，在编程中应该考虑用实例属性例如说self.x, self.y, 而不要去使用类属性，类属性通常是仅用来跟踪与类相关的一些值。<br>040类和对象：一些相关的BIF<br>40.1内置函数<br>①issubclass(class,classinfo) #第一个参数的class 是第二个参数classinfo的一个子类就返回true，需要注意的是：<br>1.一个类被认为是其自身的子类<br>2.classinfo可以是类对象组成的元组，只要class与其中任何一个候选类的子类，则返回True<br>其他情况的话就会抛出ERROR<br>例如<br>class A:<br>        pass<br>class B(A): #B是A的子类<br>        pass<br>issubclass(B,A)<br>True<br>issubclass(B,B) #也是正确的，因为自身也是自身的子类<br>True<br>issubclass(B,object) #所有类，class A后无论有没有写它的基类，他都是默认继承object<br>True<br>class C:<br>    pass<br>issubclass(B,C) #会返回False，因为B和C是没有关系的<br>False<br>②isinstance(object,classinfo)它是检查一个实例对象是否属于一个类的，第一个参数class是实例对象，第二个参数classinfo是传入一个类检查前面的是否属于ta<br>需要注意两点：<br>1.如果第一个参数不是对象，则永远返回False<br>2.如果第二个参数不是类或者是由类或者由类对象组成的元组，会抛出一个TypeError异常<br>例如<br>b1 = B()<br>isinstance(b1,B) #返回正确因为b1是B类的实例化对象<br>True<br>isinstance(b1,A) #A的话也是返回True。因为B类是来自于A类的，B类是继承于A类的，所以b1也是A类的实例化对象<br>True<br>isinstance(b1,C) #如果是C的话就返回False<br>False<br>isinstance(b1,(A,B,C)) #也可以接收一个元组，返回True<br>True<br>③hasattr(object,name) 测试一个对象里面是否有指定的属性，第一个参数是对象，第二个参数是属性名，但是你要注意的是需要加上表示字符串的双引号<br>例如<br>class C: #重新定义一下class C:<br>        def <strong>init</strong>(self, x=0):<br>            self.x = x</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>c1 = C()<br>hasattr(c1, ‘x’) #它是个bif所以直接就可以调用。x要用字符串要括起来，要不无法识别，引发NameError的异常<br>True<br>④getattr(object,name[, default]) 返回对象指定的属性值，如果指定的是属性不存在，如果你有设置default那么它会把default值打印出来，否则会抛出AttributeError异常<br>例如<br>getattr(c1,’x’) #因为x有值所以就返回0<br>0<br>getattr(c1,’y’) #y没有值就返回了AttributeError<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>AttributeError: ‘C’ object has no attribute ‘y’<br>getattr(c1,’y’,”您所访问的属性不存在。。。。”) #如果写上默认值的话，用户体验就会比较好<br>‘您所访问的属性不存在。。。。’<br>⑤setattr(object,name,value) #与getattr对应，是可以设置对象中指定属性的值，如果指定的属性不存在那么它会新建一个新的属性并给它赋值，注意name还得加上单引号<br>例如<br>setattr(c1,’y’,’FishC’)<br>getattr(c1,’y’,”您所访问的属性不存在……”) #有值的话就返回了对应的值<br>‘FishC’<br>⑥delattr(object,name) #是用于删除对象中指定的属性，如果属性不存在就抛出AttributeError异常<br>hasattr(c1,’y’) #先检查是否存在，返回True则存在<br>True<br>delattr(c1,’y’) #删除对象中的属性<br>delattr(c1,’y’) #属性不存在就抛出AttributeError异常<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>AttributeError: y<br>40.2一些相关的BIF<br>条条大路通罗马，python提供了好几种方式供你去选择<br>property(fget=None,fset=None,fdel=None,doc=None)<br>property 它的作用是通过属性来设置属性（设置一个属性，属性的作用是设置一个已经定义好的属性）<br>例如，我们再重新定义一个class C的类<br>class C:<br>…     def <strong>init</strong>(self,size=10):<br>…         self.size = size<br>…     def getSize(self): #用于让用户获得尺寸<br>…         return self.size<br>…     def setSize(self,value): #用于让用户设置尺寸<br>…         self.size = value<br>…     def delSize(self):<br>…         del self.size<br>…     x = property(getSize,setSize,delSize) #它的返回值是一属性，所以把它赋值给x<br>…<br>c1 = C() #实例化对象赋值给c1这个变量<br>c1.getSize() #以前是这么获得的<br>10<br>c1.x #现在只需要这样就可以获得了<br>10<br>c1.x = 18 #也可以重新赋值<br>c1.x<br>18<br>c1.size<br>18<br>c1.getSize()<br>18<br>def c1.x #就会删除size属性<br>041魔法方法：构造和析构</module></module></p>
+<ul>
+<li>魔法方法总是被双下划线包围，例如<strong>init</strong></li>
+<li>魔法方法是面向对象的Python的一切，如果你不知道魔法方法，说明你还没能意识到面向对象的python的强大</li>
+<li>魔法方法的魔力在它们总能够在适当的时侯被自动调用<br><strong>init</strong>(self[, …]) #其实相当于其他面向的编程语言的构造方法，也就是类在实例化对象的时候首先会调用的一个方法<br>鱼油问题:”我看你有时候在类定义时有写<strong>init</strong>方法，有时候却没有，这是为什么呢？”<br>小甲鱼答 在我们的现实生活中呀，有一种东西迫使我们努力拼搏，使我们获得了创造力和生产力，使我们不惜背井离乡来到这个城市承受着孤独和寂寞那么这个东西就叫做需求<br>我们来举一个例子。假设我么要定义一个矩形类<br>class Rectangle: #这是一个矩形类，类在定义的时候需要长和宽，实例化的时候要传入两个参数，那么我们知道了在实例化的时候会调用init方法，所以我们这里才需要对init方法进行重写<br>…     def <strong>init</strong>(self,x,y): #因为默认的话是没有参数的，所以我们这里对它进行重写，需要传进两个参数<br>…         self.x = x #左边的self.x这个是类实例化之后的实例对象的一个局部变量，而右边x的是传入的参数<br>…         self.y = y<br>…     def getPeri(self): #获得周长<br>…         return (self.x + self.y) <em> 2<br>…     def getArea(self): #获得面积<br>…         return self.x </em> self.y<br>…<br>rect = Rectangle(3,4) #需要传入两个参数3和4<br>rect.getPeri() #可以获得它的周长<br>14<br>rect.getArea() #可以返回它的面积<br>12<br>需要注意的是，<strong>init</strong>方法的返回值一定是None，也就是说他是返回一个None对象的返回值，你不能说直接让它返回一个什么值,你不能给它做一个任何的返回，例如<br>class A:<br>…     def <strong>init</strong>(self):<br>…         return “A fo A-Cup” #报错信息提示<strong>init</strong>必须返回None而不是字符串，你不能它他做任何的返回<br>…<br>a = A()<br>Traceback (most recent call last):<br>File “<input>“, line 1, in <module><br>TypeError: <strong>init</strong>() should return None, not ‘str’<br><strong>new</strong>(cls[, …])方法<br>其实<strong>init</strong>方法并不是实例化对象时第一个被调用的方法<br>第一个被调用的应该是这个<strong>new</strong>方法，new才是对象实例化时，所调用的第一个方法。<br>它跟其他魔法方法不同，他第一个参数不是self而是class，也就是这个类，他在init之前被调用，如果他后面有参数的话，后面的参数会原封不动的传给init方法，new的方法需要一个实例对象作为返回值，他需要返回对象，通常是返回class这个类的实例对象，也可以返回其他类的一个对象，这里需要说明得是，这个new方法平常是极少去重写它的，一般让python用默认的方案去执行就可以了，没有重写python在需要的时候默认的去执行它。有一种情况需要去重写魔法方法，就是当你继承一个不可变类型的时候，有需要进行修改的时候，那么他的特性就显得尤为重要了，我们来举个例子<br>class CapStr(str):#继承于str<br>…     def <strong>new</strong>(cls,string): #需要来对他进行重写<br>…         string = string.upper() #把它变成全部大写<br>…         return str.<strong>new</strong>(cls,string)#返回一个实例化的对象<br>…<br>a = CapStr(“I love FishC.com!”) #由于我们这里的类继承于str一个不可改变的类型，不可改变的话我们就不能在init方法之内对他自身进行修改，因为她自身就是一个不可改变的对象，所以我们应该在new的时候把它进行一个替换，将替换后的来调用我们的str.new<br>因为如果new没有做重写的话，他就会自动去调用基类的这个new。但是我们这里做了重写，我们做了需要的重写操作（就是把它全部变大写），然后把它作为参数，自己去调用str这个基类的new方法，那么他就会把我们重写后的方法变成一个新的字符串了<br>a<br>‘I LOVE FISHC.COM!’<br><strong>del</strong>(self)<br>如果说init和new方法是对象的构造器的话，那么python也提供了一个析构器del方法，当对象将要被销毁的时候这个方法就会自动的被调用，但要注意的是 并非我们写del x就相当于调用 x.<strong>del</strong>()（del_x == x.<strong>del</strong>()是不对的），不会的<br>del()方法是当垃圾回收机制，我们知道python有个垃圾回收机制，当没有任何变量去引用这个对象的时候，他这个垃圾回收机制就会自动把它销毁，这时候它才会调用对象的del方法<br>class C:<br>…     def <strong>init</strong>(self):<br>…         print(“我是<strong>init</strong>方法，我被调用了。。。”)<br>…     def <strong>del(self):<br>…         print(“我是</strong>del__方法，我被调用了。。。”)</module></li>
+</ul>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>c1 = C()    #实例化对象的时候就会自动调用init方法<br>我是<strong>init</strong>方法，我被调用了。。。<br>c2 = c1     #变量间的互相赋值，现在有c1和c2两个标签，两个标签指向这个变量<br>c3 = c2<br>del c3<br>del c2<br>del c1<br>我是<strong>del</strong>方法<br>需要注意的是，魔法的del()方法，并不是说发生del 操作的时候就会被调用，不会，当他的对象生成的时候所有对它的引用都被del之后，才会启动这个垃圾回收机制，那么这个垃圾回收机制去销毁这个对象的时候，他就会自动调用del方法</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>042魔法方法：算术运算<br>工厂函数<br>在python2.2之前类和类型是分开的是不同的东西，类就是一个属性和一个方法的封装，类型就像整型，浮点型，字符串等这种就是类型。在python2.2之后作者试图将它们进行统一，他的做法是将int，float，str，list，tuple等这些内置函数BIF,把他们通通转换为工厂函数，那工厂函数到底是什么呢？举个例子<br>len是个bif他的作用是返回它参数的长度</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>type(len)</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><class 'builtin_function_or_method'="">  #他是一个内置的函数或者是一个内置的方法，符合我们bif的概念</class></p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>type(int)<br>&lt; class ‘type’&gt;</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>type(list)<br>&lt; class ‘type’&gt;</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>class C:<br>    …<br>    pass</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>type(C) #C就是这个类，当我们这个类在定义的时候，他就叫做类，当它定义完之后，他叫做类对象。所谓的工厂函数他事实上就是类对象<br>&lt; class ‘type’&gt;</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>int(‘123’) #在以前这样的做法是调用int函数，然后把他的参数转化为123这个整型，现在他是实例化 int的一个对象，返回一个实例后的对象传入的参数是123 例如，<br>a = int(‘123’) # a是int的一个实例对象<br>a #就等于123<br>123<br>b = int(‘456’)<br>a + b #a还可以和b进行相加，然后发现对象原来是可以进行计算的<br>579<br>我们发现对象原来是可以进行计算的，因为python无处不对象，当我们在求a+b等于多少的时候事实上python就是将两个东西进行相加<br>的操作，python的魔法方法还提供了让你自定义对象的数值处理，通过我们对这些魔法方法的重写，你可以自定义任何对象间的算术运算。<strong>add</strong>(self,other)定义加法的行为，<strong>sub</strong>(self,other)定义剪发的行为（后面的下划线说明他们是魔法方法）我们来举个例子吧</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>class New_int(int): #继承与int，对int进行改装<br>…     def <strong>add</strong>(self,other): #重写了add方法，它有两个参数一个是self，一个是other<br>…         return int.<strong>sub</strong>(self,other) #我调用了一个减法<br>…     def <strong>sub</strong>(self,other):<br>…         return int.<strong>add</strong>(self,other)<br>…</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>a = New_int(3)<br>…<br>b = New_int(5)<br>a + b  #做了一个恶作剧，当调用的时候看到中间是一个加法那么它会调用add魔法方法，但add返回时sub减法，事实上就是int（a) - int（b)<br>-2<br>有些朋友可能会问，我想写代码但我不想调用int，不想返回int的魔法方法，那可以不以？肯定可以，举个例子<br>class Try_int(int):<br>…     def <strong>add</strong>(self,other):<br>…         return self + other<br>…     def <strong>sub</strong>(self,other):<br>…         return self - other<br>…<br>a = Try_int(3)<br>b = Try_int(5)<br>a + b<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>  File “<input>“, line 3, in <strong>add</strong><br>  File “<input>“, line 3, in <strong>add</strong><br>  File “<input>“, line 3, in <strong>add</strong><br>  File “<input>“, line 3, in <strong>add</strong><br>  File “<input>“, line 3, in <strong>add</strong><br>  File “<input>“, line 3, in <strong>add</strong><br>  File “<input>“, line 3, in <strong>add</strong><br>  File “<input>“, line 3, in <strong>add</strong><br>  File “<input>“, line 3, in <strong>add</strong><br>RuntimeError: maximum recursion depth exceeded while calling a Python object</module></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#报错了出现了无线递归，到了递归的最高层次然后就自动跳出，python设置了递归的最大深度<br>    为什么会这样呢？<br>当a+b的时候出现加法，那会调用前者a 的一个add，返回的是self + other，self是实例化对象绑定的一个方法，它绑定了a，other是b，return返回的又是 a + b，那又是发现加法，然后调用add，然后进入了递归无线递归<br>后面学的关于属性的魔法方法，更容易出现递归无线递归，所以需要特别小心。那我们应该怎么改呢</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>class Try_int(int):<br>…     def <strong>add</strong>(self,other):<br>…         return int(self) + int(other)<br>…     def <strong>sub</strong>(self,other):<br>…         return int(self) - int(other)<br>…<br>a = Try_int(3)<br>b = Try_int(5)<br>a + b<br>8<br>算术魔法方法还有很多，更多方法详见百度</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>043魔法方法：算术运算2<br>上节课我们介绍了很多算术运算的魔法方法意思是当你的对象，进行了相关的对象操作的时候，自然而然就会自动的触发魔法方法，一旦你重写了这些魔法方法，那么python会根据你的意图去计算，感觉似乎进入了上帝模式。<br>对于初学者他们并不知道魔法方法，所以默认的魔法方法让他们以合乎逻辑的方式来运行程序，所以没有什么不同，但是当你逐步深入学习，慢慢有了成变之后，你发现如果有更多的灵活性你可以把程序写的更好，把代码写的更漂亮，这时候python也可以满足你，通过对指定魔法方法的重写，你完全可以让python根据你的意图去实现程序我们来举个例子</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>class int(int):<br>…     def <strong>add</strong>(self,other):<br>…         return int.<strong>sub</strong>(self,other)  #当我们对他进行加法操作的时候，我们给他一个减法操作的结果，然后类把原来的int给覆盖掉（当他变成类对象的时候，他就把原来的工厂函数给覆盖掉了<br>…</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>a = int(‘5’)<br>b = int(3)<br>a + b<br>2<br>上述写法其实是不对的。随着你学习的深入，python允许你做的事情就更多，更灵活，python的尺度是很大的<br>扩展阅读里面魔法方法中有反运算，什么是反运算？<br>如果a对象中的add方法没有实现或者是不支持相应的操作的时候，那么python就会自动找到对象b radd的方法<br>举个例子<br>class Nint(int):<br>…     def <strong>radd</strong>(self,other):<br>…         return int.<strong>sub</strong>(self,other)<br>…<br>a = Nint(5)<br>b = Nint(3)<br>a + b<br>8<br>1 + b #为什么得到的结果是2呢，因为1找不到add方法所以找的b，b因为有radd方法，所以就触发radd方法，结果事实上我们只是执行了sub方法所以3 - 1得到了2<br>2<br>2 + b<br>1</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#这里关于反运算大家还要注意的是b的radd，self指的是b，other指的是前面的那一个1，所以self - other是3 - 1 而不是<br>1-3。如果需要1 - 3的话，我们举个反例,其实就是将other放前面而已</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>class Nint(int):<br>…     def <strong>rsub</strong>(self,other):<br>…         return int.<strong>sub</strong>(self,other)<br>…<br>a = Nint(5)<br>3 - a<br>2<br>class Nint(int):<br>…     def <strong>rsub</strong>(self,other):<br>…         return int.<strong>sub</strong>(other,self)<br>…<br>a = Nint(5)<br>3 - a<br>-2<br>接着就是增量赋值运算<br>python有大量的魔法方法来定义增量赋值语句，增量赋值其实是一种偷懒的形式，例如a = a + b，可以写成a += b<br>例如<strong>iadd</strong>(self,other) 定义赋值加法的行为: +=   其余更多魔法方法详见扩展阅读<a href="http://bbs.fishc.com/forum.php?mod=viewthread&amp;tid=48793&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D403" target="_blank" rel="noopener">http://bbs.fishc.com/forum.php?mod=viewthread&amp;tid=48793&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D403</a><br>044魔法方法：简单定制<br>—— 类的定制要求定制一个计时器的类<br>—— start和stop方法代表启动及时和停止计时<br>—— 假设计时器对象t1，print(t1)和直接调用t1均显示结果<br>—— 当计时器未启动或已经停止计时，调用stop方法会给与温馨的提示<br>—— 两个计时器对象可以进行相加：t1 + t2<br>—— 只能使用提供的有限资源完成</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>代码走起  ~ ~<br>import time as t<br>class MyTimer():</p>
+<pre><code># 开始计时
+def start(self): # 表示对象的引用
+    self.start = t.localtime()
+    print(&quot;计时开始...&quot;)
+# 停止计时
+def stop(self):
+    self.stop = t.localtime()
+    self._calc() #调用内部方法
+    print(&quot;计时结束...&quot;)
+#内部方法。计算运行时间，#内部方法可以用_开始
+def _calc(self):
+    self.lasted = []
+    self.prompt = &quot;总共运行了&quot;
+    for index in range(6):
+        self.lasted.append(self.stop[index] - self.start[index]) # 把他们的差值逐一添加到self.lasted这个列表
+        self.prompt += str(self.lasted[index]) # 依次把它追加到字符串里面总共运行了多少多少 #记得把它们变成字符串
+    print(self.prompt)
+</code></pre><p>已经实现了基本的计时功能，我们还需要完成print(t1) 还有就是直接调用t1，它会显示结果，所以我们需要重写str和repr这两个魔法方法。这两个魔法方法的实现我们举个例子<br>import time as t<br>class MyTimer():<br>    def <strong>str</strong>(self):<br>        return self.prompt<br>    <strong>repr</strong> = <strong>str</strong></p>
+<pre><code># 开始计时
+def start(self): # 表示对象的引用
+    self.start = t.localtime()
+    print(&quot;计时开始...&quot;)
+# 停止计时
+def stop(self):
+    self.stop = t.localtime()
+    self._calc() #调用内部方法
+    print(&quot;计时结束...&quot;)
+def _calc(self):
+    self.lasted = []
+    self.prompt = &quot;总共运行了&quot;
+    for index in range(6):
+        self.lasted.append(self.stop[index] - self.start[index])
+        self.prompt += str(self.lasted[index])
+</code></pre><blockquote>
+<blockquote>
+<blockquote>
+<p>t1 = MyTimer()<br>t1.start()<br>计时开始。。。<br>t1.stop()<br>计时结束。。。<br>t1<br>总共运行了000006<br>如果我们直接调用t1的话 。。。。。<br>t1 = MyTimer()<br>t1   # 当我们直接调用t1的时候会报错，因为当直接调用t1的时候python就会直接找到str和魔法方法，有调用self.prompt,但是没有定义。必须要通过start，stop这玩意才会被赋值定义<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>  File “<input>“, line 4, in <strong>str</strong><br>AttributeError: ‘MyTimer’ object has no attribute ‘prompt’</module></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h1 id="当我们直接调用t1的时候会报错，因为当直接调用t1的时候python就会直接找到str和魔法方法，有调用self-prompt-但是没有定义。必须要通过start，stop这玩意才会被赋值定义。要防止这种错误，修改的话也很简单，我们知道在类中我们用的最多的魔法方法是init-所有属于实例对象的变量在init里面先定义就不会出现问题了，那我们来修改一下。"><a href="#当我们直接调用t1的时候会报错，因为当直接调用t1的时候python就会直接找到str和魔法方法，有调用self-prompt-但是没有定义。必须要通过start，stop这玩意才会被赋值定义。要防止这种错误，修改的话也很简单，我们知道在类中我们用的最多的魔法方法是init-所有属于实例对象的变量在init里面先定义就不会出现问题了，那我们来修改一下。" class="headerlink" title="当我们直接调用t1的时候会报错，因为当直接调用t1的时候python就会直接找到str和魔法方法，有调用self.prompt,但是没有定义。必须要通过start，stop这玩意才会被赋值定义。要防止这种错误，修改的话也很简单，我们知道在类中我们用的最多的魔法方法是init,所有属于实例对象的变量在init里面先定义就不会出现问题了，那我们来修改一下。"></a>当我们直接调用t1的时候会报错，因为当直接调用t1的时候python就会直接找到str和魔法方法，有调用self.prompt,但是没有定义。必须要通过start，stop这玩意才会被赋值定义。要防止这种错误，修改的话也很简单，我们知道在类中我们用的最多的魔法方法是<strong>init</strong>,所有属于实例对象的变量在init里面先定义就不会出现问题了，那我们来修改一下。</h1><p>import time as t</p>
+<p>class MyTimer():<br>    def <strong>init</strong>(self):<br>        self.prompt = “未开始计时!”<br>        self.lasted = []<br>        self.start = 0<br>        self.stop = 0</p>
+<p>def <strong>str</strong>(self):<br>    return self.prompt</p>
+<p><strong>repr</strong> = <strong>str</strong></p>
+<h1 id="开始计时"><a href="#开始计时" class="headerlink" title="开始计时"></a>开始计时</h1><p>def start(self):  # 表示对象的引用<br>    self.start = t.localtime()<br>    print(“计时开始…”)</p>
+<h1 id="停止计时"><a href="#停止计时" class="headerlink" title="停止计时"></a>停止计时</h1><p>def stop(self):<br>    self.stop = t.localtime()<br>    self._calc()  # 调用内部方法<br>    print(“计时结束…”)</p>
+<p>def _calc(self):<br>    self.lasted = []<br>    self.prompt = “总共运行了”<br>    for index in range(6):<br>        self.lasted.append(self.stop[index] - self.start[index])<br>        self.prompt += str(self.lasted[index])</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>t1 = MyTimer()<br>t1</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><mytimer object="" at="" 0x032f71f0=""></mytimer></p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>t1.start() # 报错了<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>TypeError: ‘int’ object is not callable</module></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h1 id="报错原因，抛出类型错误，我们知道一个整型不能被调用，整型不可能被当做对象或函数来调用，但是为什么我们会报这样一个错误呢，我们代码里面没有调用整型都是调用的方法。我们之前添加了一个初始化self-start-0，变量也叫start，我们之前学过"><a href="#报错原因，抛出类型错误，我们知道一个整型不能被调用，整型不可能被当做对象或函数来调用，但是为什么我们会报这样一个错误呢，我们代码里面没有调用整型都是调用的方法。我们之前添加了一个初始化self-start-0，变量也叫start，我们之前学过" class="headerlink" title="报错原因，抛出类型错误，我们知道一个整型不能被调用，整型不可能被当做对象或函数来调用，但是为什么我们会报这样一个错误呢，我们代码里面没有调用整型都是调用的方法。我们之前添加了一个初始化self.start = 0，变量也叫start，我们之前学过"></a>报错原因，抛出类型错误，我们知道一个整型不能被调用，整型不可能被当做对象或函数来调用，但是为什么我们会报这样一个错误呢，我们代码里面没有调用整型都是调用的方法。我们之前添加了一个初始化self.start = 0，变量也叫start，我们之前学过</h1><p>类的方法名和他的属性名一样的话，属性会覆盖了方法，属性覆盖了方法，那start被认为是属性了，他就认为是一个整型了，因为我们赋值了0，那么他把他去调用的话肯定会报错，那我们修改一下就可以了，只要不跟方法名重复就可以了。。。。以下例子中把start修改成了begin<br>import time as t<br>class MyTimer():<br>    def <strong>init</strong>(self):<br>        self.unit = [‘年’, ‘月’, ‘天’, ‘小时’, ‘分钟’, ‘秒’]<br>        self.prompt = “未开始计时。。。”<br>        self.lasted = []<br>        self.begin = 0<br>        self.end = 0</p>
+<h2 id="def-str-self"><a href="#def-str-self" class="headerlink" title="def str(self):"></a>def <strong>str</strong>(self):</h2><h2 id="return-self-prompt"><a href="#return-self-prompt" class="headerlink" title="return self.prompt"></a>return self.prompt</h2><pre><code># __repr = __str__
+
+
+# 开始计时
+def start(self):
+    if self.begin:
+        print(&quot;提示:请先调用stop()停止计时&quot;)
+    else:
+        self.begin = t.localtime()
+        print(&quot;计时开始。。。&quot;)
+
+# 停止计时
+def stop(self):
+    if not self.begin:
+        print(&quot;提示:请先调用start()进行计时&quot;)
+    else:
+        self.end = t.localtime()
+        self._calc()
+        print(&quot;计时结束。。。&quot;)
+</code></pre><h2 id="内部方法，计算运行时间"><a href="#内部方法，计算运行时间" class="headerlink" title="内部方法，计算运行时间"></a>内部方法，计算运行时间</h2><pre><code>def _calc(self):
+    self.lasted = []
+    self.prompt = &quot;总共运行了&quot;
+    for index in range(6):
+        self.lasted.append(self.end[index] - self.begin[index])
+        if self.lasted[index]:
+            self.prompt += (str(self.lasted[index]) + self.unit[index])
+            print(self.prompt)
+            self.begin = 0
+            self.end = 0
+</code></pre><p>好无奈 后来我把它写成了这个样子。。。。。<br>import time as t<br>class MyTimer():<br>    def <strong>init</strong>(self):<br>        self.unit = [‘年’, ‘月’, ‘天’, ‘小时’, ‘分钟’, ‘秒’]<br>        self.prompt = “未开始计时。。。”</p>
+<pre><code>    #self.lasted = []
+    #self.begin = t.localtime()
+    #self.end = t.localtime()
+    self.begin = (2017,12,7,10,43,5,3,341,0)
+    self.end = (2017,12,7,10,43,25,3,341,0)
+
+
+def _calc(self):
+    self.lasted = []
+    self.prompt = &quot;总共运行了&quot;
+    for index in range(6):
+        self.lasted.append(self.end[index] - self.begin[index])
+        if self.lasted[index]:
+            self.prompt += (str(self.lasted[index]) + self.unit[index])
+            print(self.prompt)
+def s(self):
+    self._calc()
+   # print(&quot;呱呱呱&quot;)
+</code></pre><p>045魔法方法：属性访问<br>魔法方法关于属性访问的应用，我们知道我们可以通过点操作符的形式去访问对象属性，在类和对象一些相关的bif，这一节课里面也会学到完全可以通过bif有礼貌的去访问对象属性，殊途同归。我们可以回顾下</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>class C:<br>…     def <strong>init</strong>(self):<br>…         self.x = ‘X-man’<br>…<br>c = C()<br>c.x<br>‘X-man’<br>getattr(c,’x’,’木有这个属性’)<br>‘X-man’<br>getattr(c,’y’,’木有这个属性’)<br>‘木有这个属性’</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>class C:<br>…     def <strong>init</strong>(self,size = 10):<br>…         self.size = size<br>…     def getSize(self):<br>…         return self.size<br>…     def setSize(self,value):<br>…         self.size = value<br>…     def delSize(self):<br>…         del self.size<br>…     x = property(getSize,setSize,delSize)  #通过property函数，使得x跟size挂钩<br>…<br>c = C()<br>c.x = 1<br>c.x     #c.x = 1 那c.size = 1<br>1<br>c.size<br>1<br>del c.x   #删除c.x那c.size也对应删除<br>c.size<br>Traceback (most recent call last):<br>  File “<input>“, line 1, in <module><br>AttributeError: ‘C’ object has no attribute ‘size’<br>只有重复才能把重点记得牢靠<br>关于属性访问肯定有相应的魔法方法来管理，通过这些魔法方法的重写你可以随心所欲的控制对象的属性访问<br>属性访问（主要讲的就是这四种魔法方法）<br><strong>getattr</strong>(self,name)<br>-定义当用户试图获取一个不存在的属性时的行为<br><strong>getattribute</strong>(self,name)<br>-定义当该类的属性被访问时的行为<br><strong>setattr</strong>(self,name,value)<br>-定义当一个属性被设置时的行为<br><strong>selattr</strong>(self,name)<br>-定义当一个属性被删除时的行为</module></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>class C:<br>    def <strong>getattribute</strong>(self, name):  # 定义一个属性被访问时的行为<br>        print(“getattribute”)<br>        return super().<strong>getattribute</strong>(name)  # super它会自动帮我们找它的父类或基类超类</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<pre><code>def __getattr__(self, name):
+    print(&quot;getattr&quot;)
+
+def __setattr__(self, name, value):
+    print(&quot;setattr&quot;)
+    super().__setattr__(name, value)
+
+def __delattr__(self, name):
+    print(&quot;delattr&quot;)
+    super().__delattr__(name)
+</code></pre><blockquote>
+<blockquote>
+<blockquote>
+<p>c = C()  #首先访问了getattribute，结果再来访问getattr，如果getattribute访问不到的话，他会去找dict属性对应的字典，没有的话他会执行<strong>getattr</strong>这个<br>c.x<br>getattribute<br>getattr<br>c.x = 1  # 如果设置等于1，那对象就有属性了，那他就调用了setattr<br>setattr<br>c.x     # 结果没有setattr，因为getattr是定义当用户试图获取一个不存在的属性时的行为<br>getattribute<br>1<br>del c.x<br>delattr</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#这就是给他们的顺序和触发点有一个需要注意的地方，就是有一个死循环陷阱，做一个练习<br>练习要求<br>-写一个矩形类，默认有宽和高两个属性；<br>-如果为一个叫square的属性赋值，那么说明这是一个正方形，值就是正方形的边长，此时宽和高都应该等于边长。<br>class Rectangle:<br>    def <strong>init</strong>(self,width=0,height=0):<br>        self.width = width<br>        self.height = height</p>
+<pre><code>def __setattr__(self,name,value):
+    if name == &apos;square&apos;:
+        self.width = value
+        self.height = value
+    else:
+        #self.name = value #这样做的话会陷入死循环
+        super().__setattr__(name,value) #如果不是的话，就按照默认的赋值，这是正确的做法第一种方法，调用基类的attr，基类总是系统写好的，是保守的没有问题的
+def getArea(self):
+    return self.width * self.height  #获得面积
+</code></pre><blockquote>
+<blockquote>
+<blockquote>
+<p>r1 = Rectangle(4,5)<br>r1.getArea()<br>20<br>r1.square = 10  #如果给square属性赋值，那说明它是一个正方形<br>r1.width    #width = 10<br>10<br>r1.height   #height = 10<br>10<br>r1.getArea()<br>100</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>第二种方法就是给一个对象的特殊属性dict属性赋值,我们知道对象有个特殊属性叫dict，它的作用是以字典的形式显示出当前的所有属性以及对应的值，例如</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>r1.<strong>dict</strong><br>{‘height’: 10, ‘width’: 10}<br>事实上我们就可以这么改了</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>class Rectangle:<br>    def <strong>init</strong>(self,width=0,height=0):<br>        self.width = width<br>        self.height = height</p>
+<pre><code>def __setattr__(self,name,value):
+    if name == &apos;square&apos;:
+        self.width = value
+        self.height = value
+    else:
+       self.__dict__[name] = value
+def getArea(self):
+    return self.width * self.height  #获得面积
+</code></pre><blockquote>
+<blockquote>
+<blockquote>
+<p>r1 = Rectangle(4,5)<br>r1.getArea()<br>20<br>r1.square = 10<br>r1.getArea()<br>100<br>046魔法方法：描述符（Property的原理）<br>昨天提到了property函数，如果你想知道property的实现原理，今天就可以学习一下<br>描述符<br>描述符就是将某种特殊类型的类的实例指派给另一个类的属性（以下3种属于描述符属性的一个方法）<br><strong>get</strong>(self,instance,owner)</p>
+<ul>
+<li>用于访问属性，它返回属性的值</li>
+</ul>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><strong>set</strong>(self,instance,value)</p>
+<ul>
+<li>将在属性分配操作中调用，不返回任何内容</li>
+</ul>
+<p><strong>delete</strong>(self,instance)</p>
+<ul>
+<li>控制删除操作，不返回任何内容</li>
+</ul>
+<p>class MyDecriptor:<br>    def <strong>get</strong>(self, instance, owner):<br>        print(“getting…”, self, instance, owner)</p>
+<pre><code>def __set__(self, instance, value):
+    print(&quot;setting...&quot;, self, instance, value)
+
+def __delete__(self, instance):
+    print(&quot;deleting...&quot;, self, instance)
+</code></pre><blockquote>
+<blockquote>
+<blockquote>
+<p>class Test:<br>        x = MyDecriptor()   #这个类完全实现了上述3个方法所以它是符合这个（某种特殊类型的类）我们就说MyDecriptor就是x的描述符，而上面的（class MyDecriptor）就是描述符类<br>test = Test() #实例化这个test类<br>getting… <mydecriptor object="" at="" 0x0333ac70=""> None <class 'test'=""><br>test.x<br>getting… <mydecriptor object="" at="" 0x0333ac70=""> <test object="" at="" 0x03306790=""> <class 'test'="">  #<mydecriptor object="" at="" 0x0333ac70=""> 描述符类本身的一个实例<br>test</mydecriptor></class></test></mydecriptor></class></mydecriptor></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><test object="" at="" 0x03306790=""> #拥有者类的实例</test></p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>Test</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><class 'test'="">  #拥有者类的本身</class></p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>test.x = “X-man”    #等号赋值然后它会调用set的特殊方法，前两个参数是一样的，最后一个参数是等号右边的X-man<br>setting… <mydecriptor object="" at="" 0x0333ac70=""> <test object="" at="" 0x03306790=""> X-man<br>del test.x<br>deleting… <mydecriptor object="" at="" 0x0333ac70=""> <test object="" at="" 0x03306790=""><br>只要弄清楚的描述符，那property就不是什么秘密了，property其实就是一个描述符类，我们这里就来定义一个属于自己的property，例如<br>class MyProperty:<br>        def <strong>init</strong>(self,fget=None,fset=None,fdel=None):<br>            self.fget = fget<br>            self.fset = fset<br>            self.fdel = fdel<br>        def <strong>get</strong>(self,instance,owner):<br>            return self.fget(instance)<br>        def <strong>set</strong>(self,instance,value):<br>            self.fset(instance,value)<br>        def <strong>delete</strong>(self,instance):<br>            self.fdel(instance)</test></mydecriptor></test></mydecriptor></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>class C:<br>…     def <strong>init</strong>(self):<br>…         self._x = None<br>…     def getX(self):<br>…         return self._x<br>…     def setX(self,value):<br>…         self._x = value<br>…     def delX(self):<br>…         del self._x<br>…     x = MyProperty(getX,setX,delX)<br>…<br>c = C()<br>c = C()<br>c.x = ‘X-man’<br>c.x<br>‘X-man’<br>c._x<br>‘X-man’</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#再学习一个实例<br>练习要求<br>先定一个温度类，然后定义两个描述符类用于描述摄氏度和华氏度两个属性<br>要求两个属性会自动进行转换，也就是说你可以给摄氏度这个属性赋值，然后打印的华氏度属性是自动转换后的结果<br>class Celsius:  #2描述符类：描述符类是Celsius描述符的全程<br>    def <strong>init</strong>(self,value = 26.0): #温度我们要进行初始化<br>        self.value = float(value)#我们要统一把它转换成浮点数进行运算，因为我们待会要把华氏度*1.8+12，既然是描述符类那必然涉及到get set delete3个方法之一</p>
+<pre><code>def __get__(self,instance,owner):
+    return self.value
+
+def __set__(self,instance,value):
+    self.value = float(value)   #统一转换为浮点型形式
+</code></pre><p>class Fahrenheit:  #4<br>    def <strong>get</strong>(self,instance,owner): #就需要两个描述符类的方法一个是获得的时候一个是类设置的时候<br>        return instance.cel * 1.8 + 32</p>
+<pre><code>def __set__(self,instance,value):
+    instance.cel = (float(value) - 32) / 1.8
+</code></pre><p>class Temperature:<br>    cel = Celsius() #1cel表示的是摄氏度，摄氏度的话要写一个描述符类来描述cel摄氏度这个属性，描述符类是Celsius描述符的全程<br>    fah = Fahrenheit() #3</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>temp = Temperature()<br>temp.cel<br>26.0<br>temp = Temperature(30) #这里报错了是因为，Temperature类我们没有写init方法，init是在cel里面的。我们要设置的话需要通过cel<br>Traceback (most recent call last):<br>  File “&lt;pyshell#2&gt;”, line 1, in <module><br>    temp = Temperature(30)<br>TypeError: object() takes no parameters<br>temp.cel = 30<br>temp.fah<br>86.0<br>temp.fah = 100<br>temp.cel<br>37.77777777777778<br>047魔法方法：定制序列<br>协议是什么？</module></p>
+<ul>
+<li>协议与其他编程语言中的接口很相似，它规定你哪些方法必须要定义。然而，在python中的协议就显得不那么正式。事实上，在python中，协议更像是一种指南<br>容器类型的协议</li>
+<li>如果你希望定制的容器是不可变的话（例如说是元组，字符串他们是不可变的）你只需要定义<strong>len</strong>()和<strong>getitem</strong>()方法</li>
+<li>如果你希望定制的容器是可变的话，除了<strong>len</strong>()和<strong>getitem</strong>()方法，你还需要定义<strong>setitem</strong>()和<strong>delitem</strong>()两个方法。<br><a href="http://bbs.fishc.com/forum.php?mod=viewthread&amp;tid=48793&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D403" target="_blank" rel="noopener">http://bbs.fishc.com/forum.php?mod=viewthread&amp;tid=48793&amp;extra=page%3D1%26filter%3Dtypeid%26typeid%3D403</a> #python魔法方法详解《零基础学习python》#容器类型</li>
+</ul>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>练习要求</p>
+<ul>
+<li><p>编写一个不可改变的自定义列表，要求记录列表中每个元素被访问的次数。<br>class CountList: #把一个类定义成一个容器<br>  def <strong>init</strong>(self,<em>args): #我们需要初始化一下。</em>args参数是可变类型的，可变数量的因为我们不知道用户要传入多少个数据，我们要把它初始化一个列表</p>
+<pre><code>self.values = [x for x in args] #我们通过推导式的形式，把它存放至values这个列表里面
+self.count = {}.fromkeys(range(len(self.values)),0) #初始化为0，刚开始全部都没有被访问所以初始化为0
+</code></pre><p>  def <strong>len</strong>(self): #因为是不可变的容器，所以要定义len和getitem</p>
+<pre><code>return len(self.values)
+</code></pre><p>  def <strong>getitem</strong>(self,key):</p>
+<pre><code>self.count[key] += 1 #获取它的值就会访问它一次
+return self.values[key]
+</code></pre></li>
+</ul>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>c1 = CountList(1,3,5,7,9)<br>c2 = CountList(2,4,6,8,10)<br>c1[1]<br>3<br>c1[1] + c2[1]<br>7<br>c1.count<br>{0: 0, 1: 2, 2: 0, 3: 0, 4: 0}</p>
+</blockquote>
+</blockquote>
+</blockquote>
+
                 </div>
                 
 <nav id="article-nav">
