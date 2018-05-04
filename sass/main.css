@@ -196,6 +196,8 @@ del {
   max-width: 200px; }
   .bookmark .active .toc-text {
     color: #FC5185; }
+  .bookmark .toc-text {
+    color: #364F6B; }
   .bookmark .toc-child .toc-level-1 {
     font-size: 20.2px; }
   .bookmark .toc-child .toc-level-2 {
